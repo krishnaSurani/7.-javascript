@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightcyan;
+            text-align: center;
+        }
+    </style>
+</head>
+<body><br><br><br><br><br><br>
+    <center>
+    <input type="text" id="num" placeholder="Enter the number"><br><br>
+    <button onclick="prime()">click</button><br><br>
+    <h3 id="answer"></h3>
+</center>
+</body>
+
+
+    <script>
+        function prime() {
+            let n=Number( document.getElementById("num").value);
+            let a=1;
+            let count=0;
+
+            
+
+            while(a<=n)
+            {
+                if(n%a==0)
+                {
+                    count++;
+                }
+                a++;
+            }
+                
+
+            if(count==2)
+            {
+                document.getElementById("answer").innerText=n + " is prime number.";
+            }
+            else{
+                document.getElementById("answer").innerText=n + " is not prime number.";
+            }
+        }
+    </script>
+
+</html>

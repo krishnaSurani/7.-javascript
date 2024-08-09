@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" placeholder="Enter the Number" id="n">
+    <button onclick="fact()">Click</button>
+    <h3 id="ans"></h3>
+</body>
+
+<script>
+    function fact() {
+        let a = document.getElementById("n").value;
+        let fact = 1;
+
+        while (a > 0) {
+            fact = fact * a;
+            a--;
+        }
+        document.getElementById("ans").innerText = fact;
+    }
+</script>
+
+</html>
