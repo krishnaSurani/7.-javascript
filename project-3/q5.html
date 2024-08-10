@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <input type="number" placeholder="Enter the number" id="num">
+    <button onclick="pattern()">Print</button>
+    <h2 id="ans"></h2>
+</center>
+</body>
+
+    <script>
+        function pattern() {
+            let n=document.getElementById("num").value;
+            let count=1;
+            let b="";
+
+            for(let i=1; i<=n; i++)
+            {
+                
+                for(let j=1; j<=i; j++)
+                {
+                    b+=count + "  ";
+                    count++;
+                }
+                b+="\n";
+
+                
+            }
+            document.getElementById("ans").innerText=b;
+        }
+    </script>
+
+</html>

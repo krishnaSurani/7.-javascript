@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body><br><br><br><br>
+    <input type="number" placeholder="Enter the number" id="num"><br><br>
+    <button onclick="sum()">Click</button><br><br><br>
+    <label for=""><h3>sum</h3></label>
+    <input type="text" id="ans">
+    
+</body>
+
+<script>
+    function sum() {
+        let n = parseInt(document.getElementById("num").value);
+        let sum = 0;
+
+        if (n > 0) {
+            for (let i = 1; i <= n; i++) {
+                if (i % 2 == 0) {
+                    sum = sum + i;
+                }
+                document.getElementById("ans").value = sum;
+            }
+        }
+    }
+
+
+</script>
+
+</html>
