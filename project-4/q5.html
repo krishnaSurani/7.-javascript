@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h2>Square Number</h2><br><br>
+    <input type="number" id="n"><br><br>
+    <button onclick="square()">Click</button><br><br>
+    <input type="text " id="ans5">
+</center>
+</body>
+
+    <script>
+        function square() {
+            let num=parseInt(document.getElementById("n").value);
+            let ans="";
+
+
+            for(let i=1; i<=num; i++)
+            {
+                 ans =ans+ sqr(i) + " ";
+            }
+            document.getElementById("ans5").value=ans;
+
+            function sqr(a) {
+                return a*a;
+            }
+        }
+    </script>
+
+</html>

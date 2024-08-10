@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       input{
+        text-align: center;
+       }
+    </style>
+</head>
+<body><center><br><br><br>
+    <input placeholder="enter the value" id="num"><br><br>
+    <button onclick="fibo()">click</button><br><br><br><br>
+    <input type="text" id="ans">
+</center>
+</body>
+<script>
+    function fibo()
+{
+    let n=document.getElementById("num").value;
+
+    let first=0;
+    let second=1;
+
+
+
+   if(n>1) 
+    {
+        for(let i=2;i<=n;i++)
+        {
+        let next=first+second;
+
+        first=second;
+        second=next;
+        document.getElementById("ans").value=next;
+
+        }
+    }
+    else
+    {
+        document.getElementById("ans").value=second;
+    }
+
+
+
+
+}
+</script>
+</html>

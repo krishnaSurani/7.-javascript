@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h2>Even- odd Number</h2><br><br>
+    <input type="number" id="b"><br><br>
+    <button onclick="evenodd()">Click</button><br><br>
+    <input type="text   " id="ans3">
+</center>
+</body>
+
+    <script>
+        function evenodd() {
+            let a=document.getElementById("b").value;
+
+            let ans = eo()
+                document.getElementById("ans3").value = ans;
+
+
+            function eo() {
+                
+                if(a%2==0)
+                {
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
+        }
+    </script>
+
+</html>
