@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/beach-2562563_1280.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.form-container {
+    /* background: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: #f02b66;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    color: white;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+span{
+
+    color: red;
+}
