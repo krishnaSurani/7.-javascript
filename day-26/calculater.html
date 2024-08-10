@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+                crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+        <div class="col-12 col-lg-4 m-auto mt-5 border p-4 rounded-4 shadow-xl bg-amber-300 ">
+                <div class="columns-2 flex flex-row  h-16 aling-item-center items-center">
+                        <div class="w-5/6  ">
+
+                                <input type="tel" class="form-control h-14 bg-black text-white bg-opacity-75" id="text">
+                        </div>
+                        <div class="w-20  text-center "> <button onclick="can()"
+                                        class="btn border-red-700 text-red-700 font-bold hover:bg-red-700 hover:text-white text-2xl  w-16 h-14">c</button>
+                        </div>
+                </div>
+
+                <div class="mt-4">
+
+                        <button onclick="cal('7')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">7
+                        </button>
+                        <button onclick="cal('8')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">8</button>
+                        <button onclick="cal('9')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">9</button>
+                        <button onclick="cal('*')"
+                                class="btn bg-sky-300  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">X</button>
+                </div>
+                <div class="col-12">
+
+                        <button onclick="cal('4')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">4</button>
+                        <button onclick="cal('5')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">5</button>
+                        <button onclick="cal('6')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">6</button>
+                        <button onclick="cal('-')"
+                                class="btn btn bg-sky-300  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">-</button>
+                </div>
+                <div class="col-12">
+
+                        <button onclick="cal('1')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">1</button>
+                        <button onclick="cal('2')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">2</button>
+                        <button onclick="cal('3')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">3</button>
+                        <button onclick="cal('+')"
+                                class="btn bg-sky-300  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">+</button>
+
+                </div>
+                <div class="col-12">
+
+                        <button onclick="cal('0')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">0</button>
+                        <button onclick="cal('.')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">.</button>
+                        <button onclick="cal('/')"
+                                class="btn bg-sky-500  hover:text-sky-500 font-bold shadow-xl w-14 text-2xl text-center h-14 m-3 rounded-5">/</button>
+                        <button onclick="calc()"
+                                class="btn bg-sky-300  hover:text-sky-500 font-bold w-14 text-2xl text-center h-14 m-3 rounded-5">=</button>
+                </div>
+</body>
+
+<script>
+        function cal(a) {
+                document.getElementById("text").value += a;
+
+        }
+        function can() {
+                document.getElementById("text").value = "";
+        }
+        function calc() {
+                let a = document.getElementById("text").value;
+
+                document.getElementById("text").value = eval(a)
+        }
+</script>
+
+
+</html>
