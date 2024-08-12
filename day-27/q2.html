@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+        <div
+                class="mx-auto w-5/12 border-2 border-sky-900 rounded-2xl flex my-4 h-96 items-center justify-evenly  flex-col">
+                <h2 class="text-3xl text-red-600 font-bold">Check num/char</h2>
+                <input type="text" id="in" class="border-2 h-8 w-80 px-4 border-blue-900 rounded">
+                <button id="bt"
+                        class="border-2 border-red-500 w-28 h-10  rounded px-4 py-1 text-blue-900 font-bold hover:bg-blue-900 hover:border-blue-900  ease-in-out delay-150  hover:text-red-500">click</button>
+                <div id="ans" class="h-20"></div>
+        </div>
+</body>
+
+<script>
+        document.querySelector("#bt").addEventListener("click", () => {
+                try {
+                        let a = document.querySelector("#in").value;
+
+                        if (a == "") {
+                                throw new Error("Plece Enter Value")
+                        }
+                        else if (a < 0) {
+                                throw new Error("Nagativ number");
+                        }
+                        else if (a >= 0) {
+                                document.querySelector("#ans").innerHTML = `<h2 class="text-3xl text-green-600" > Positiv Number <h2>`;
+                        }
+                        else if (a < 'a' || a > 'z') {
+                                throw new Error("This is Sapcial Charecter")
+                        }
+                        else if (a >= 'a' || a <= 'z' || a <= 'A' || a <= 'Z') {
+                                throw new Error("This is Charecter")
+                        }
+
+
+
+                } catch (ero) {
+                        document.querySelector("#ans").innerHTML = `<h2 class="text-3xl text-red-600"> ${ero}</h2>      `;
+
+                }
+                finally {
+                        console.log("Complet");
+
+                }
+        })
+</script>
+
+</html>
