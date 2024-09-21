@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+</head>
+<style>
+    * {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    body {
+        justify-content: center;
+    }
+    body img{
+        height: 60px;
+        margin-left: 45%;
+    }
+
+    .singup {
+        height: 620px;
+        width: 28%;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 38%;
+        box-shadow: 1px 1px 10px 1px gray;
+
+    }
+
+    .singup h1 {
+        padding-left: 10%;
+        text-align: left;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .singup #form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .singup #form label {
+        padding-left: 10%;
+        font-weight: 700;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        font-size: 13px;
+        line-height: 19px;
+        color: #111;
+    }
+
+    .singup #form input {
+        height: 30px;
+        width: 320px;
+        margin-bottom: 30px;
+        padding-left: 5px;
+        margin-left: 10%;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        border: 1px solid #a6a6a6;
+        border-top-color: #949494;
+        border-radius: 3px;
+    }
+
+
+    .singup #form #btn {
+        height: 40px;
+        font-size: 16px;
+        width: 320px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        color: #0F1111;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        background-color: rgba(240, 207, 90, 0.829);
+    }
+
+    .singup span {
+        padding-left: 18%;
+        padding-top: 10px;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        font-size: 13px;
+        line-height: 19px;
+        color: #111;
+    }
+
+    .singup span a {
+        text-decoration: none;
+    }
+
+    .singup p {
+        padding-left: 10%;
+        font-size: 12px;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        line-height: 1.5;
+        color: #111;
+    }
+</style>
+
+<body>
+    <img src="image/logo3.png" alt="">
+    <div class="singup">
+        <h1>Create account</h1>
+        <form action="" id="form">
+            <label for="">Your name</label>
+            <input type="text" name="" id="user" placeholder="First and last name">
+            <label for="">Email</label>
+            <input type="email" name="" id="email">
+            <label for="">Password</label>
+            <input type="password" name="" id="pass" placeholder="At least 6 characters">
+            <label for="">Password again</label>
+            <input type="password" name="" id="pass">
+            <input type="submit" name="" id="btn" placeholder="Create your Amazone account">
+            <p>By creating an account or logging in, you agree to <br>Amazon’s Conditions of Use and Privacy Policy.</p>
+        </form>
+        <span>Already have an account?<a href="login.html"> Sign in</a></span>
+    </div>
+
+    <script src="singup.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

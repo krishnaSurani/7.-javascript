@@ -1,0 +1,229 @@
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    background-color: #000000;
+    height: 70px;
+}
+.navbar .container-fluid img{
+    margin-left: 3%;
+}
+.navbar .container-fluid .navbar-nav {
+   margin-left: 48%;
+}
+.navbar .container-fluid .navbar-nav .nav-item{
+    margin-left:10px ;
+}
+
+.head{
+    height: 200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head a {
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-left: 3%;
+}
+.head a span{
+    height: 30px;
+    width: 30px;
+padding-left:10px;
+padding-top: 4px;
+padding-bottom: 5px;
+padding-right: 10px;
+border-radius: 50%;
+border: 1px solid black;
+margin-right: 10px;
+}
+.head a span i{
+    font-size: 10px;
+}
+.head h1{
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+.product{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.product .sidebar{
+    height: 700px;
+    width: 28%;    
+    border-right: 1px solid rgba(0, 0, 0, 0.388);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.388);
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 0px;
+}
+
+.product .sidebar .inf1{
+    height: 160px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.product .sidebar .inf1 span{
+    margin-left: 58%;
+}
+.product .sidebar .inf1 .txt1{
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.product .sidebar .inf2{
+    height: 180px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.product .sidebar .inf2 span{
+    margin-left: 78%;
+}
+.product .sidebar .inf2 .txt1{
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.product .sidebar .inf2 .prc{
+    height: 95px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.product .sidebar .inf2 .prc .p1{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product .sidebar .inf2 .prc .p2{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product .sidebar .inf2 .prc .p1 #i1,.p2 #i2{
+    height: 30px;
+    width: 100px;
+    border: none;
+    box-shadow: 1px 1px 2px 0px gray;
+}
+.product .sidebar .inf3 .txt1{
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.product .sidebar .inf3 span{
+    margin-left: 75%;
+}
+.product .sidebar .inf3{
+    height: 230px;
+    width: 100%;
+    border: none;
+    /* border-bottom: 1px solid black; */
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+.product .product-box{
+    height: auto;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    height: 400px;
+    width: 31%;
+    box-shadow: 1px 1px 6px 1px gray;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.box #p-img{
+    height:50% ;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box #p-img img{
+    height: 80%;
+    width: 80%;
+}
+.box #p-text{
+    height:50% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+}
+.box #p-text h6:hover{
+    cursor: pointer;
+}
+.box #p-text .cart{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    transition: 1s;
+}
+.box #p-text .cart:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* .box #p-text .cart::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    color: black;
+    position: absolute;
+    bottom: 12px;
+    left: 0px;
+}
+.box #p-text .cart:hover::before{
+   width: 100px;
+} */

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<style>
+    *{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    body{
+        /* display: flex; */
+        justify-content: center;
+    }
+    body img{
+        height: 60px;
+        margin-left: 45%;
+    }
+    .login{
+        height: 350px;
+        width: 28%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 38%;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .login h1{ 
+        padding-left: 10%;
+        text-align: left;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    .login #form{
+        display: flex;
+        flex-direction: column;
+    }
+    .login #form input{
+        height: 30px;
+        width: 320px;
+        margin-bottom: 30px;
+        padding-left: 5px;
+        margin-left: 10%;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        border: 1px solid #a6a6a6;
+        border-top-color: #949494;
+        border-radius: 3px;
+    }
+    .login #form input::placeholder{
+        font-size: 16px;
+    }
+    .login #form label {
+        padding-left: 10%;
+        font-weight: 700;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        font-size: 13px;
+        line-height: 19px;
+        color: #111;
+    }
+    .login #form #btn{
+        height: 40px;
+        font-size: 16px;
+        width: 320px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        color: #0F1111;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        background-color: rgba(240, 207, 90, 0.829);
+    }
+    .login span {
+        padding-left: 18%;
+        padding-top: 10px;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        font-size: 13px;
+        line-height: 19px;
+        color: #111;
+    }
+    .login span a{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <img src="image/logo3.png" alt="">
+    <div class="login">
+        <h1>Sign in</h1>
+        <form action="" id="form">
+            <label for="">Email or mobile phone number</label>
+            <input type="email" name="" id="email">
+            <input type="submit" name="" id="btn" placeholder="Continue">
+        </form>    
+        <span>Don't have an account?<a href="signup.html"> Create account</a></span>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="singup.js"></script>
+</body>
+</html>
+
+
+
+

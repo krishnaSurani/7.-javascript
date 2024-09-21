@@ -1,0 +1,82 @@
+{
+  "data": [],
+  "product": [
+    {
+      "image": "https://m.media-amazon.com/images/I/415C6L00ZjL._MCnd_AC_.jpg",
+      "modal": "Samsung",
+      "about": "Samsung Galaxy M15 5G (Blue Topaz,6GB RAM,128GB Storage)| 50MP Triple Cam| 6000mAh Batte..",
+      "rate": "1,648",
+      "dis": "-15%",
+      "price": "₹14,499.00",
+      "deli": "FREE Delivery by Amazon",
+      "id": "6657"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/513A4tPlWPL._MCnd_AC_.jpg",
+      "modal": "Kapa",
+      "about": "Kapa Soft Full Fabric Protective Back Case Cover for OnePlus 12R | Shockproof Slim Hard Anti Slip Ba…",
+      "rate": "8",
+      "dis": "-50%",
+      "price": "₹499.00",
+      "deli": "FREE Delivery by Amazon",
+      "id": "ab84"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/41xoCCQJGyL._MCnd_AC_.jpg",
+      "modal": "iQOO",
+      "about": "iQOO Z9s Pro 5G (Flamboyant Orange, 8GB RAM, 128GB Storage) | Snapdragon 7..",
+      "rate": "274",
+      "dis": "-17%",
+      "price": "₹24,998.00",
+      "deli": "FREE Delivery by Amazon",
+      "id": "b267"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/41x507Qk7oL._MCnd_AC_.jpg",
+      "modal": "Samsung",
+      "about": "Samsung Galaxy S23 Ultra 5G AI Smartphone (Phantom Black, 12GB, 256GB Storage)",
+      "rate": "1.389",
+      "dis": "-43%",
+      "price": "₹84,999.00",
+      "deli": "FREE Delivery by Amazon",
+      "id": "677f"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/4108Ig7HKtL._MCnd_AC_.jpg",
+      "modal": "Redmi",
+      "about": "Redmi 13 5G, Hawaiian Blue, 6GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro..",
+      "rate": "1,104",
+      "dis": "-22%",
+      "price": "₹13,998.00",
+      "deli": "FREE Delivery by Amazon",
+      "id": "8913"
+    }
+  ],
+  "cart": [],
+  "users": [
+    {
+      "id": "a7ba",
+      "user": "krishna",
+      "email": "krishnasurani07@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "caa2",
+      "user": "krishna",
+      "email": "krishnasurani07@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "66c4",
+      "user": "krishna",
+      "email": "krishnasurani07@gmail.com",
+      "password": "987456"
+    },
+    {
+      "id": "7ad9",
+      "user": "krishna",
+      "email": "krishnasurani07@gmail.com",
+      "password": "987456"
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <!-- bootstrap-cdn -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- font-awesome-cnd -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <style>
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+header .logo{
+    height: 100%;
+    width: 12%;
+    text-align: center;
+    padding-top: 8px;
+}
+header .logo img{
+    height: 95%;
+    width: 70%;
+}
+header .location{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .location a{
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+header .location .search{
+    width: 80%;
+    margin-top: 10px;
+}
+header .location .search select{
+    border: none;
+    background-color: none;
+    width: 40px;
+}
+header .location .ser{
+    background-color: #E8B86D;
+}
+header .account{
+    height: 100%;
+    width: 30%;
+    color: white;
+    padding: 5px;
+   
+}
+header .account .language{
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding: 20px;
+    display: none;
+}
+header .account .indenflag{
+    height: 10px;
+}
+.acc1,.acc2,.acc3,.acc4{
+    /* border: 1px solid white; */
+    width: 100px;
+}
+.acco{
+    background-color: white;
+    color: black;
+    width: 350px;
+    padding: 20px;
+    display: none;
+    margin-left: 20%;
+}
+.acco1 p,.acco2 p{
+    font-size: 10px;
+    
+}
+.nav{
+    height: 35px;
+    width: 100%;
+    border: 1px solid #232f3e;
+}
+.nav nav{
+    height: 100%;
+    width: 100%;
+    /* background-color: #303d4d; */
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.nav nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.nav nav a:hover{
+    border: 1px solid white;
+    height: 90%;
+
+}
+.nav nav img{
+    height: 95%;
+    margin-left: 8%;
+}
+        .main{
+            display: flex;
+        }
+        .productBox{
+            width: 100%;
+            height: 800px;
+            border: 1px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        #box{
+            width: 18%;
+            height: 630px;
+            padding-left: 15px;
+            background-color: #f7f7f7;
+            border-radius: 5px;
+        }
+        #box img{
+            height: 330px;
+            width: 94%;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            
+        }
+        #box #info .modal{
+            font-size: 16px;
+            font-weight: 700;
+            color: #0f1111;
+            cursor: pointer;
+            font-family: "Amazon Ember", Arial, sans-serif;
+        }
+        #box #info .about{
+            line-height: 1.3em ;
+            font-size: 16px ;
+            color: #0f1111;
+            cursor: pointer;
+            font-family: "Amazon Ember", Arial, sans-serif;
+        }
+        #box #info .dis{
+            color: #cc1c39;
+            font-weight: 100;
+            font-size: 28px;
+            line-height: 36px;
+            font-family: "Amazon Ember", Arial, sans-serif; 
+        }
+        #box #info .price{
+            font-size: 28px;
+            color: #0f1111;
+            font-family: "Amazon Ember", Arial, sans-serif;
+        }
+        #box #info .deli{
+            color: #0f1111;
+            font-size: 14px;
+            line-height: 20px;
+            font-family: "Amazon Ember", Arial, sans-serif;
+        }
+        #box #info button{
+            height: 30px;
+            width: 70%;
+            border-radius: 30px;
+            background-color: #F7CA00;
+            border: none;
+            margin-top:  20px;
+            margin-left: 25px;
+
+        }
+        #box #info .modal:hover, #box #info .about:hover{
+            color: red;
+        }
+        /* footer */
+
+footer{
+    height: 600px;
+    width: 100%;
+    background-color: #232F3E;
+    padding-top: 20px;
+}
+footer .n{
+    height: 60%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .n .n1, .n2, .n3, .n4{
+    height: 90%;
+    width: 23%;
+}
+footer .n .n1 h5, .n2 h5, .n3 h5, .n4 h5{
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    padding-left: 30px;
+}
+footer .n .n1 ul li, .n2 ul li, .n3 ul li, .n4 ul li{
+    list-style: none;
+}
+footer .n .n1 ul li a, .n2 ul li a, .n3 ul li a, .n4 ul li a{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+}
+footer .n .n1 ul li a:hover, .n2 ul li a:hover, .n3 ul li a:hover, .n4 ul li a:hover{
+    text-decoration: underline;
+}
+footer .n5{
+    height: 70px;
+    width: 30%;
+    margin: auto;
+}
+footer .n5 img{
+    height: 80%;
+}
+footer .n5 select{
+    background-color:#232F3E;
+    border: 1px solid #ddd;
+    color: #ddd;
+    height: 40px;
+    width: 100px;
+    margin-left: 10%;
+}
+footer .n5 button{
+    height: 40px;
+    width: 100px;
+    background-color: #232F3E;
+    color: #ddd;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+}
+footer .n5 button img{
+    height: 15px;
+}
+    </style>
+</head>
+<body>
+     
+     <!-- header -->
+    <header>
+        <div class="logo"><img src="image/logo.jpg" alt=""></div>
+        <div class="location pt-2 ps-2">
+            <a href=""><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i><span class="ms-2">Update location</span></a>
+            <div class="input-group mb-3 search">
+                <span class="input-group-text">
+                    <select>
+                        <option value="">All</option>
+                        <option value="">All Categories</option>
+                        <option value="">All Skills</option>
+                        <option value="">Amazon Devices</option>
+                        <option value="">Amazon Fashion</option>
+                        <option value="">Amazon Pharmacy</option>
+                        <option value="">Appliances</option>
+                        <option value="">Apps & Games</option>
+                        <option value="">Audible Audiobooks</option>
+                        <option value="">Baby</option>
+                        <option value="">Beauty</option>
+                        <option value="">Books</option>
+                        <option value=""> Car & Motorbike</option>
+                        <option value="">Clothing & Accessories</option>
+                        <option value="">Collectibles</option>
+                        <option value="">Computers & Accessories</option>
+                        <option value="">Deals</option>
+                    </select>
+                </span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Search Amazon.in">
+                <span class="input-group-text ser"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></span>
+              </div>
+        </div>
+        <div class="account">
+            <div class="acc1">
+        <p id="leg"><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag" class="indenflag"> IN <i class="fa-solid fa-caret-down"></i></p>
+          </div>
+              <div class="language">
+                <input type="radio"><span>English-EN</span><br>
+                <hr>
+                <input type="radio"><span>हिन्दी - HI</span><br>
+                <input type="radio"><span>தமிழ் - TA </span><br>
+                <input type="radio"><span>తెలుగు - TE </span><br>
+                <input type="radio"><span>ಕನ್ನಡ - KN </span><br>
+                <input type="radio"><span>മലയാളം - ML</span><br>
+                <input type="radio"><span>বাংলা - BN </span><br>
+                <input type="radio"><span>मराठी - MR</span>
+                <hr>
+                <p>You are shopping on Amazon.in</p>
+            </div>
+      
+        <div class="acc2" id="acc2" style="position: absolute; top: 0; right: 16%;"><span style="font-size: 10px;">Hello, sign in</span><p style="font-size: 12px;">Account & Lists <i class="fa-solid fa-caret-down"></i></p></div>
+        <div class="acco">
+            <div class="acco1" style="width: 50%;">
+                <h6>Your Account</h6>
+                <p>Create a Wish List</p>
+                   <p> Wish from Any Website</p>
+                   <p> Baby Wishlist</p>
+                   <p> Discover Your Style</p>
+                   <p> Explore Showroom </p>
+              
+                   
+            </div>
+            <div class="acco2">
+                <h6>Your Lists </h6>
+                <p> Switch Accounts</p>
+                 <p>Sign Out</p>
+                <p> Your Account</p>
+                <p> Your Orders</p>
+                <p> Your Wish List</p>
+                <p> Keep shopping for</p>
+                <p> Your Recommendations</p>
+                <p> Recalls and Product Safety Alerts</p>
+                <p> Your Prime Membership</p>
+                <p> Your Prime Video</p>
+                <p> Your Subscribe & Save Items</p>
+                <p> Memberships & Subscriptions</p>
+                <p> Your Seller Account</p>
+                <p> Content Library</p>
+                <p> Devices</p>
+                <p> Your Free Amazon Business Account</p>
+            </div>
+        </div>
+        <div class="acc3" style="position: absolute; top: 0; right: 7%;"><span style="font-size: 10px;">Returns</span><p style="font-size: 12px;">& Orders</p></div>
+        <div class="acc4" style="position: absolute; top: 0; right: 2%; margin-top: 9px;"><i class="fa-solid fa-cart-plus fa-lg" style="color: #ffffff;"></i></div>
+        </div>
+    </header>
+
+    <!-- nav -->
+     <div class="nav">
+    <nav>
+        <a href=""><i class="fa-solid fa-bars" style="color: #ffffff;"></i> All</a>
+        <a href="">Amazon miniTV</a>
+        <a href="">Sell</a>
+        <a href="">Today's Deals</a>
+        <a href="">Amazon Pay</a>
+        <a href="">Best Sellers</a>
+        <a href="">Buy Again</a>
+        <a href="">Prime</a>
+        <a href="product.html">Mobiles</a>
+        <a href="">Customer Service</a>
+        <a href="">Gift Cards</a>
+        <a href="">Electronics</a>
+        <img src="image/fast.jpg" alt="">
+    </nav>
+</div>
+    <div class="main">
+        <div class="productBox"></div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="n">
+            <div class="n1">
+                <h5>Get to Know <br> Us</h5>
+                <ul>
+                    <li><a href="">About Us</a></li>                   
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Press Releases</a></li>
+                    <li><a href="">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div class="n2">
+                <h5>Connect with <br> Us</h5>
+                <ul>
+                    <li><a href="">Facebook</a></li>                   
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="n3">
+                <h5>Make Money with Us</h5>
+                <ul>
+                    <li><a href="">Sell on Amazon</a></li>                   
+                    <li><a href="">Sell under Amazon <br>Accelerator</a></li>
+                    <li><a href="">Protect and Build Your Brand</a></li>
+                    <li><a href="">Amazon Global Selling</a></li>
+                    <li><a href="">Supply to Amazon</a></li>
+                    <li><a href="">Become an Affiliate</a></li>
+                    <li><a href="">Fulfilment by Amazon</a></li>
+                    <li><a href="">Advertise Your Products</a></li>
+                    <li><a href="">Amazon Pay on Merchants</a></li>
+                </ul>
+            </div>
+            <div class="n4">
+                <h5>Let Us Help You</h5>
+                <ul>
+                    <li><a href="">Your Account</a></li>                   
+                    <li><a href="">Returns Centre</a></li>
+                    <li><a href="">Recalls and Product Safety <br> Alerts</a></li>
+                    <li><a href="">100% Purchase Protection</a></li>
+                    <li><a href="">Amazon App Download</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+        </div><br>
+        <hr style="border: 1px solid #ddd;"><br>
+        <div class="n5">
+            <img src="image/logo2.png" alt="">
+            <select>
+                <option value=""> 🌐 English</option>
+                <option value=""> हिन्दी - HI - अनुवाद</option>
+                <option value="">தமிழ் - TA - மொழிபெயர்ப்பு</option>
+                <option value="">తెలుగు - TE - అనువాదం</option>
+                <option value="">ಕನ್ನಡ - KN - ಭಾಷಾಂತರ</option>
+                <option value="">മലയാളം - ML - വിവർത്തനം</option>
+                <option value="">বাংলা - BN - অনুবাদ</option>
+                <option value="">मराठी - MR - भाषांतर</option>
+            </select>
+            <button><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag"> India</button>
+
+        </div>
+      </footer>
+
+
+    <script src="product.js"></script>
+</body>
+</html>
