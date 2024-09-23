@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,36 @@
     <link rel="stylesheet" href="style.css">
 
 
-        <!-- bootstrap-cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- bootstrap-cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
-        <!-- font-awesome-cnd -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-awesome-cnd -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-     <!-- swiper-slider-cdn -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- swiper-slider-cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-  <!-- jquary-cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquary-cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
+
 <body>
 
-     <!-- header -->
+    <!-- header -->
     <header>
-        <div class="logo"><img src="image/logo.jpg" alt=""></div>
+        <div class="logo"><a href="index.html"><img src="image/logo.jpg" alt=""></a></div>
         <div class="location pt-2 ps-2">
-            <a href=""><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i><span class="ms-2">Update location</span></a>
+            <a href=""><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i><span class="ms-2">Update
+                    location</span></a>
             <div class="input-group mb-3 search">
                 <span class="input-group-text">
                     <select>
@@ -50,15 +60,18 @@
                         <option value="">Deals</option>
                     </select>
                 </span>
-                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Search Amazon.in">
-                <span class="input-group-text ser"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></span>
-              </div>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"
+                    placeholder="Search Amazon.in">
+                <span class="input-group-text ser"><i class="fa-solid fa-magnifying-glass"
+                        style="color: #000000;"></i></span>
+            </div>
         </div>
         <div class="account">
-            <div class="acc1">
-        <p id="leg"><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag" class="indenflag"> IN <i class="fa-solid fa-caret-down"></i></p>
-          </div>
-              <div class="language">
+            <div class="acc1" style="padding: 5px;">
+                <p id="leg"><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
+                        alt="Indian Flag" class="indenflag"> IN <i class="fa-solid fa-caret-down"></i></p>
+            </div>
+            <div class="language">
                 <input type="radio"><span>English-EN</span><br>
                 <hr>
                 <input type="radio"><span>हिन्दी - HI</span><br>
@@ -71,62 +84,70 @@
                 <hr>
                 <p>You are shopping on Amazon.in</p>
             </div>
-      
-        <div class="acc2" id="acc2" style="position: absolute; top: 0; right: 16%;"><span style="font-size: 10px;">Hello, sign in</span><p style="font-size: 12px;">Account & Lists <i class="fa-solid fa-caret-down"></i></p></div>
-        <div class="acco">
-            <div class="acco1" style="width: 50%;">
-                <h6>Your Account</h6>
-                <p>Create a Wish List</p>
-                   <p> Wish from Any Website</p>
-                   <p> Baby Wishlist</p>
-                   <p> Discover Your Style</p>
-                   <p> Explore Showroom </p>
-              
-                   
+
+            <div class="acc2" id="acc2" style="position: absolute; top: 0; right: 16%;"><span
+                    style="font-size: 10px;">Hello, sign in</span>
+                <p style="font-size: 12px;">Account & Lists <i class="fa-solid fa-caret-down"></i></p>
             </div>
-            <div class="acco2">
-                <h6>Your Lists </h6>
-                <p> Switch Accounts</p>
-                 <p>Sign Out</p>
-                <p> Your Account</p>
-                <p> Your Orders</p>
-                <p> Your Wish List</p>
-                <p> Keep shopping for</p>
-                <p> Your Recommendations</p>
-                <p> Recalls and Product Safety Alerts</p>
-                <p> Your Prime Membership</p>
-                <p> Your Prime Video</p>
-                <p> Your Subscribe & Save Items</p>
-                <p> Memberships & Subscriptions</p>
-                <p> Your Seller Account</p>
-                <p> Content Library</p>
-                <p> Devices</p>
-                <p> Your Free Amazon Business Account</p>
+            <div class="acco">
+                <div class="acco1" style="width: 50%;">
+                    <h6>Your Account</h6>
+                    <p>Create a Wish List</p>
+                    <p> Wish from Any Website</p>
+                    <p> Baby Wishlist</p>
+                    <p> Discover Your Style</p>
+                    <p> Explore Showroom </p>
+
+
+                </div>
+                <div class="acco2">
+                    <h6>Your Lists </h6>
+                    <p> Switch Accounts</p>
+                    <p><a href="">Sign Out</a></p>
+                    <p> Your Account</p>
+                    <p> Your Orders</p>
+                    <p> Your Wish List</p>
+                    <p> Keep shopping for</p>
+                    <p> Your Recommendations</p>
+                    <p> Recalls and Product Safety Alerts</p>
+                    <p> Your Prime Membership</p>
+                    <p> Your Prime Video</p>
+                    <p> Your Subscribe & Save Items</p>
+                    <p> Memberships & Subscriptions</p>
+                    <p> Your Seller Account</p>
+                    <p> Content Library</p>
+                    <p> Devices</p>
+                    <p> Your Free Amazon Business Account</p>
+                </div>
             </div>
-        </div>
-        <div class="acc3" style="position: absolute; top: 0; right: 7%;"><span style="font-size: 10px;">Returns</span><p style="font-size: 12px;">& Orders</p></div>
-        <div class="acc4" style="position: absolute; top: 0; right: 2%; margin-top: 9px;"><i class="fa-solid fa-cart-plus fa-lg" style="color: #ffffff;"></i></div>
+            <div class="acc3" style="position: absolute; top: 0; right: 9%;"><span
+                    style="font-size: 10px;">Returns</span>
+                <p style="font-size: 12px;">& Orders</p>
+            </div>
+            <div class="acc4" style="position: absolute; top: 0; right: 2%; padding: 13px;">
+                <a href="cart.html" style="text-decoration: none; color: white;"><i class="fa-solid fa-cart-plus fa-lg" style="color: #ffffff;"></i> Cart</a>
+            </div>
         </div>
     </header>
 
     <!-- nav -->
-     <div class="nav">
-    <nav>
-        <a href=""><i class="fa-solid fa-bars" style="color: #ffffff;"></i> All</a>
-        <a href="">Amazon miniTV</a>
-        <a href="">Sell</a>
-        <a href="">Today's Deals</a>
-        <a href="">Amazon Pay</a>
-        <a href="">Best Sellers</a>
-        <a href="">Buy Again</a>
-        <a href="">Prime</a>
-        <a href="product.html">Mobiles</a>
-        <a href="">Customer Service</a>
-        <a href="">Gift Cards</a>
-        <a href="">Electronics</a>
-        <img src="image/fast.jpg" alt="">
-    </nav>
-</div>
+    <div class="nav">
+        <nav>
+            <a href=""><i class="fa-solid fa-bars" style="color: #ffffff;"></i> All</a>
+            <a href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav">Amazon miniTV</a>
+            <a href="">Sell</a>
+            <a href="">Today's Deals</a>
+            <a href="https://www.amazon.in/amazonpay/home?ref_=nav_em_apay_nav_desktop_0_1_1_25">Amazon Pay</a>
+            <a href="">Best Sellers</a>
+            <a href="">Buy Again</a>
+            <a href="">Prime</a>
+            <a href="product.html">Mobiles</a>
+            <a href="">Customer Service</a>
+            <a href="">Gift Cards</a>
+            <a href="electronic.html">Electronics</a>
+            <img src="image/fast.jpg" alt="">
+        </nav>
+    </div>
 
 
     <!-- section-1 -->
@@ -211,9 +232,12 @@
             </div>
             <div class="b4b bg-light">
                 <div class="b4ba"><img src="image/img20.jpg" alt=""></div>
-                <div class="b4bb"><img src="image/img21.png" alt=""><p>"Khapli wheat: pure oraganic choice"</p></div>
+                <div class="b4bb"><img src="image/img21.png" alt="">
+                    <p>"Khapli wheat: pure oraganic choice"</p>
+                </div>
                 <div class="b4bc">
-                    <span>Tito's oraganic Khapli wheat | Emmer-khapli-Long wheat Ancient Whole Long Grain | 1kg | Pack Of 3 (3) </span>
+                    <span>Tito's oraganic Khapli wheat | Emmer-khapli-Long wheat Ancient Whole Long Grain | 1kg | Pack
+                        Of 3 (3) </span>
                     <h5 class="text-danger" style="font-size: 16px;">-40% off</h5>
                 </div>
             </div>
@@ -226,7 +250,9 @@
         <div class="c1">
             <h2>Prime Video: Recommended for you</h2>
             <span>Raayan</span>
-            <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=1209600&openid.return_to=https%3A%2F%2Feu.primevideo.com%2Fregion%2Feu%2Fauth%2Freturn%3F_t%3D1og45Msodr69Er9fTohrC9PcxCMDO0qNXC6zSi5VuXNQdgAAAAAQAAAABm6myDcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ%26location%3D%2Fregion%2Feu%2Fdetail%2Famzn1.dv.gti.462002c2-ae0b-4eb5-9eab-3176244fa27c%3Fref_%253Datv_sso_std&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&accountStatusPolicy=P1&openid.assoc_handle=amzn_prime_video_sso_in&openid.mode=checkid_setup&countryCode=IN&siteState=261-6512918-5163610&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Start watching on Prime Video</a>
+            <a
+                href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=1209600&openid.return_to=https%3A%2F%2Feu.primevideo.com%2Fregion%2Feu%2Fauth%2Freturn%3F_t%3D1og45Msodr69Er9fTohrC9PcxCMDO0qNXC6zSi5VuXNQdgAAAAAQAAAABm6myDcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ%26location%3D%2Fregion%2Feu%2Fdetail%2Famzn1.dv.gti.462002c2-ae0b-4eb5-9eab-3176244fa27c%3Fref_%253Datv_sso_std&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&accountStatusPolicy=P1&openid.assoc_handle=amzn_prime_video_sso_in&openid.mode=checkid_setup&countryCode=IN&siteState=261-6512918-5163610&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Start
+                watching on Prime Video</a>
         </div>
         <div class="c2 bg-light">
             <h2>Top mobile accessories for your smartphone</h2>
@@ -269,7 +295,7 @@
     </div>
 
     <!-- section-4 -->
-     <div class="d bg-light">
+    <div class="d bg-light">
         <p>Best Sellers in Sports, Fitness & Outdoors</p>
         <div class="d1"><img src="image/img31.jpg" alt=""></div>
         <div class="d2"><img src="image/img32.jpg" alt=""></div>
@@ -278,10 +304,10 @@
         <div class="d5"><img src="image/img35.jpg" alt=""></div>
         <div class="d6"><img src="image/img36.jpg" alt=""></div>
         <div class="d7"><img src="image/img37.jpg" alt=""></div>
-     </div>
+    </div>
 
-     <!-- section-5 -->
-      <div class="e bg-light">
+    <!-- section-5 -->
+    <div class="e bg-light">
         <div class="e1">
             <h2>Up to 50% off |<br> International brands</h2>
             <img src="image/img38.jpg" alt="">
@@ -305,7 +331,7 @@
                 <img src="image/img14.jpg" alt="">
                 <span>Bages, Wallets & luggage</span>
             </div>
-            
+
         </div>
         <div class="e3">
             <h2>Best Sellers in Grocery & Gourmet Foods</h2>
@@ -321,10 +347,10 @@
             <div class="e4c"><img src="image/img47.jpg" alt=""></div>
             <div class="e4d"><img src="image/img48.jpg" alt=""></div>
         </div>
-      </div>
+    </div>
 
-       <!-- section-6 -->
-     <div class="f bg-light">
+    <!-- section-6 -->
+    <div class="f bg-light">
         <p>Best Sellers in Clothing & Accessories</p>
         <div class="f1"><img src="image/img49.jpg" alt=""></div>
         <div class="f2"><img src="image/img50.jpg" alt=""></div>
@@ -333,10 +359,10 @@
         <div class="f5"><img src="image/img53.jpg" alt=""></div>
         <div class="f6"><img src="image/img54.jpg" alt=""></div>
         <div class="f7"><img src="image/img55.jpg" alt=""></div>
-     </div>
+    </div>
 
-      <!-- section-7 -->
-      <div class="g bg-light">
+    <!-- section-7 -->
+    <div class="g bg-light">
         <p>Best Sellers in Computers & Accessories</p>
         <div class="g1"><img src="image/img56.jpg" alt=""></div>
         <div class="g2"><img src="image/img57.jpg" alt=""></div>
@@ -345,11 +371,11 @@
         <div class="g5"><img src="image/img60.jpg" alt=""></div>
         <div class="g6"><img src="image/img61.jpg" alt=""></div>
         <div class="g7"><img src="image/img62.jpg" alt=""></div>
-     </div>
+    </div>
 
-     
-     <!-- section-8 -->
-     <div class="h bg-light">
+
+    <!-- section-8 -->
+    <div class="h bg-light">
         <div class="h1">
             <h2>Up to 60% off | Car, bike parts & accessories</h2>
             <img src="image/img63.jpg" alt="">
@@ -358,7 +384,9 @@
         <div class="h2">
             <h2>Yeh Meri Family | Season 4 | Streaming Now</h2>
             <img src="image/img64.jpg" alt=""><br>
-            <span><a href="https://www.amazon.in/minitv?_encoding=UTF8&dplnk=Y&mtv_pt=gateway&refMarker=avod_in_desktop_all_na_gw_cc_btf_YMFS4&pd_rd_w=OvxzV&content-id=amzn1.sym.fc6bd21c-f9cc-47b9-b8d1-16d623acf5c2&pf_rd_p=fc6bd21c-f9cc-47b9-b8d1-16d623acf5c2&pf_rd_r=YVKV7X2KGQWQMWJNK03V&pd_rd_wg=m2dTX&pd_rd_r=07ced814-6c05-4d56-8a1b-1b5b7f223923&ref_=pd_hp_d_btf_unk">Check out other exciting shows on miniTV</a></span>
+            <span><a
+                    href="https://www.amazon.in/minitv?_encoding=UTF8&dplnk=Y&mtv_pt=gateway&refMarker=avod_in_desktop_all_na_gw_cc_btf_YMFS4&pd_rd_w=OvxzV&content-id=amzn1.sym.fc6bd21c-f9cc-47b9-b8d1-16d623acf5c2&pf_rd_p=fc6bd21c-f9cc-47b9-b8d1-16d623acf5c2&pf_rd_r=YVKV7X2KGQWQMWJNK03V&pd_rd_wg=m2dTX&pd_rd_r=07ced814-6c05-4d56-8a1b-1b5b7f223923&ref_=pd_hp_d_btf_unk">Check
+                    out other exciting shows on miniTV</a></span>
         </div>
         <div class="h3">
             <h2>Starting ₹99 | Start your fitness journey</h2>
@@ -383,197 +411,210 @@
                 <img src="image/img39.jpg" alt="">
                 <span>Up to 60% off | Jewellery</span>
             </div>
-            
+
         </div>
-      </div>
+    </div>
 
-        <!-- section-9 -->
-        <div class="i bg-light">
-            <p>Best Sellers in Beauty</p>
-            <div class="i1"><img src="image/img68.jpg" alt=""></div>
-            <div class="i2"><img src="image/img69.jpg" alt=""></div>
-            <div class="i3"><img src="image/img70.jpg" alt=""></div>
-            <div class="i4"><img src="image/img71.jpg" alt=""></div>
-            <div class="i5"><img src="image/img72.jpg" alt=""></div>
-            <div class="i6"><img src="image/img73.jpg" alt=""></div>
-            <div class="i7"><img src="image/img74.jpg" alt=""></div>
-         </div>
+    <!-- section-9 -->
+    <div class="i bg-light">
+        <p>Best Sellers in Beauty</p>
+        <div class="i1"><img src="image/img68.jpg" alt=""></div>
+        <div class="i2"><img src="image/img69.jpg" alt=""></div>
+        <div class="i3"><img src="image/img70.jpg" alt=""></div>
+        <div class="i4"><img src="image/img71.jpg" alt=""></div>
+        <div class="i5"><img src="image/img72.jpg" alt=""></div>
+        <div class="i6"><img src="image/img73.jpg" alt=""></div>
+        <div class="i7"><img src="image/img74.jpg" alt=""></div>
+    </div>
 
-         <!-- section-10 -->
-        <div class="j">
-            <p>Amazon LIVE - Watch, chat & Shop LIVE</p>
-            <div class="j1"></div>
-            <div class="j2">
-                <section class="slider">
-                    <button class="slider__control prev"><i class="fa-solid fa-chevron-left"></i></button>
-                    <button class="slider__control next"><i class="fa-solid fa-chevron-right"></i></button>
-                    <div class="slider__container" data-multislide="false" data-step="4">
-                      <div class="slider__item">
+    <!-- section-10 -->
+    <div class="j">
+        <p>Amazon LIVE - Watch, chat & Shop LIVE</p>
+
+        <div class="j1"> <img src="image/video-img.jpg" alt="" style="height: 100%; width: 100%;"></div>
+        <div class="j2">
+            <section class="slider">
+                <button class="slider__control prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="slider__control next"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="slider__container" data-multislide="false" data-step="4">
+                    <div class="slider__item">
                         <img src="image/img91.jpg" alt="" width="70%">
-                        <p>ZARALA Compatible For oneplus nord ce 4 5G Tempered Glass | NeoShield & Anti Explosion | Full Screen Coverage-Edge to Edge | 9H Hardness </p>
-                      </div>
-                      <div class="slider__item">
-                          <img src="image/img92.jpg" alt="" width="80%">
-                          <p>Samsung Galaxy M35 5G (Moonlight Blue,8GB RAM,256GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber </p>
-                      </div>
-                      <div class="slider__item">
-                          <img src="image/img93.jpg" alt="" width="70%">
-                          <p>OnePlus Nord CE4 Lite 5G (Ultra Orange, 8GB RAM, 128GB Storage)</p>
-                      </div>
-                      <div class="slider__item">
+                        <p>ZARALA Compatible For oneplus nord ce 4 5G Tempered Glass | NeoShield & Anti Explosion | Full
+                            Screen Coverage-Edge to Edge | 9H Hardness </p>
+                    </div>
+                    <div class="slider__item">
+                        <img src="image/img92.jpg" alt="" width="80%">
+                        <p>Samsung Galaxy M35 5G (Moonlight Blue,8GB RAM,256GB Storage)| Corning Gorilla Glass Victus+|
+                            AnTuTu Score 595K+ | Vapour Cooling Chamber </p>
+                    </div>
+                    <div class="slider__item">
+                        <img src="image/img93.jpg" alt="" width="70%">
+                        <p>OnePlus Nord CE4 Lite 5G (Ultra Orange, 8GB RAM, 128GB Storage)</p>
+                    </div>
+                    <div class="slider__item">
                         <img src="image/img94.jpg" alt="" width="70%">
-                        <p>iQOO Z9s 5G (Onyx Green, 8GB RAM, 256GB Storage) | 120 Hz 3D Curved AMOLED Display | 5500 mAh Ultra-Thin Battery | Dimesity 7300 5G Processor</p>
-                      </div>
-                      <div class="slider__item">
+                        <p>iQOO Z9s 5G (Onyx Green, 8GB RAM, 256GB Storage) | 120 Hz 3D Curved AMOLED Display | 5500 mAh
+                            Ultra-Thin Battery | Dimesity 7300 5G Processor</p>
+                    </div>
+                    <div class="slider__item">
                         <img src="image/img95.jpg" alt="" width="70%">
-                        <p>iQOO Z9 Lite 5G (Aqua Flow, 4GB RAM, 128GB Storage) | Dimensity 6300 5G | 50MP Sony AI Camera | Charger in The Box</p>
-                      </div>
-                      <div class="slider__item">
+                        <p>iQOO Z9 Lite 5G (Aqua Flow, 4GB RAM, 128GB Storage) | Dimensity 6300 5G | 50MP Sony AI Camera
+                            | Charger in The Box</p>
+                    </div>
+                    <div class="slider__item">
                         <img src="image/img96.jpg" alt="" width="70%">
-                        <p>Redmi 13 5G, Hawaiian Blue, 6GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment</p>
-                      </div>
-                      <div class="slider__item">
+                        <p>Redmi 13 5G, Hawaiian Blue, 6GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera |
+                            6.79in Largest Display in Segment</p>
+                    </div>
+                    <div class="slider__item">
                         <img src="image/img97.jpg" alt="" width="80%">
-                        <p>realme NARZO 70 Turbo 5G (Turbo Yellow,6GB RAM,128GB Storage) | Segment's Fastest Dimensity 7300 Energy 5G Chipset | Motorsports Inspired Design</p>
-                      </div>
-                      <div class="slider__item">
+                        <p>realme NARZO 70 Turbo 5G (Turbo Yellow,6GB RAM,128GB Storage) | Segment's Fastest Dimensity
+                            7300 Energy 5G Chipset | Motorsports Inspired Design</p>
+                    </div>
+                    <div class="slider__item">
                         <img src="image/img98.jpg" alt="" width="80%">
-                        <p>OnePlus 10 Pro 5G Dual-SIM 256GB ROM + 12GB RAM (GSM Only | No CDMA) Factory Unlocked 5G Smartphone (Emerald Forest) - International Version</p>
-                      </div>
-                      <div class="slider__item">
+                        <p>OnePlus 10 Pro 5G Dual-SIM 256GB ROM + 12GB RAM (GSM Only | No CDMA) Factory Unlocked 5G
+                            Smartphone (Emerald Forest) - International Version</p>
+                    </div>
+                    <div class="slider__item">
                         <img src="image/img99.jpg" alt="" width="83%">
                         <p>OnePlus 12R (Cool Blue, 8GB RAM, 256GB Storage)</p>
-                      </div>
-                      <div class="slider__item">
+                    </div>
+                    <div class="slider__item">
                         <img src="image/img100.jpg" alt="" width="75%">
-                        <p>realme NARZO 70x 5G (Ice Blue, 6GB RAM,128GB Storage)|120Hz Ultra Smooth Display|Dimensity 6100+ 6nm 5G|50MP AI Camera|45W Charger in The Box</p>
-                      </div>
-                      <div class="slider__item">
+                        <p>realme NARZO 70x 5G (Ice Blue, 6GB RAM,128GB Storage)|120Hz Ultra Smooth Display|Dimensity
+                            6100+ 6nm 5G|50MP AI Camera|45W Charger in The Box</p>
+                    </div>
+                    <div class="slider__item">
                         <img src="image/img101.jpg" alt="" width="90%">
                         <p>Samsung Galaxy S23 Ultra 5G AI Smartphone (Phantom Black, 12GB, 256GB Storage)</p>
-                      </div>
-                      <div class="slider__item">
-                        <img src="image/img102.jpg" alt="" width="70%">
-                        <p>iQOO Z9s Pro 5G (Flamboyant Orange, 8GB RAM, 128GB Storage) | Snapdragon 7 Gen 3 Processor | 120 Hz Curved AMOLED Display with 4500 nits Local Peak Brightness</p>
-                      </div>
-                      <div class="slider__item">
-                        <img src="image/img103.jpg" alt="" width="70%">
-                        <p>Samsung Galaxy M15 5G (Blue Topaz,6GB RAM,128GB Storage)| 50MP Triple Cam| 6000mAh Battery| MediaTek Dimensity 6100+| 4 Gen. OS Upgrade & 5 Year Security Update</p>
-                      </div>
                     </div>
-                  </section>
-              
+                    <div class="slider__item">
+                        <img src="image/img102.jpg" alt="" width="70%">
+                        <p>iQOO Z9s Pro 5G (Flamboyant Orange, 8GB RAM, 128GB Storage) | Snapdragon 7 Gen 3 Processor |
+                            120 Hz Curved AMOLED Display with 4500 nits Local Peak Brightness</p>
+                    </div>
+                    <div class="slider__item">
+                        <img src="image/img103.jpg" alt="" width="70%">
+                        <p>Samsung Galaxy M15 5G (Blue Topaz,6GB RAM,128GB Storage)| 50MP Triple Cam| 6000mAh Battery|
+                            MediaTek Dimensity 6100+| 4 Gen. OS Upgrade & 5 Year Security Update</p>
+                    </div>
+                </div>
+            </section>
+
         </div>
 
-          <!-- section-11 -->
+        <!-- section-11 -->
         <div class="k bg-light">
-        <div class="k1">
-            <h2>Best Sellers in Books</h2>
-            <div class="k1a"><img src="image/img75.jpg" alt=""></div>
-            <div class="k1b"><img src="image/img76.jpg" alt=""></div>
-            <div class="k1c"><img src="image/img77.jpg" alt=""></div>
-            <div class="k1d"><img src="image/img78.jpg" alt=""></div>
+            <div class="k1">
+                <h2>Best Sellers in Books</h2>
+                <div class="k1a"><img src="image/img75.jpg" alt=""></div>
+                <div class="k1b"><img src="image/img76.jpg" alt=""></div>
+                <div class="k1c"><img src="image/img77.jpg" alt=""></div>
+                <div class="k1d"><img src="image/img78.jpg" alt=""></div>
+            </div>
+            <div class="k2">
+                <h2>Featured in Grocery</h2>
+                <img src="image/img79.jpg" alt="">
+                <p>tito's ORAGANIC Ambemohar Rich | White | 1 Kg | Pack Of 3 </p>
+                <h5><i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: #000000;"></i> 450
+                    <span style="font-size: 11px;">M.R.P</span>
+                </h5>
+                <a href="">Shop now</a>
+            </div>
+            <div class="k3">
+                <h2>Customers’ Most-Loved Fashion for you</h2>
+                <div class="k3a"><img src="image/img80.jpg" alt=""></div>
+                <div class="k3b"><img src="image/img81.jpg" alt=""></div>
+                <div class="k3c"><img src="image/img82.jpg" alt=""></div>
+                <div class="k3d"><img src="image/img83.jpg" alt=""></div>
+            </div>
+            <div class="k4">
+                <h2>Best Sellers in Clothing & Accessories</h2>
+                <div class="k4a"><img src="image/img49.jpg" alt=""></div>
+                <div class="k4b"><img src="image/img50.jpg" alt=""></div>
+                <div class="k4c"><img src="image/img51.jpg" alt=""></div>
+                <div class="k4d"><img src="image/img52.jpg" alt=""></div>
+            </div>
         </div>
-        <div class="k2">
-            <h2>Featured in Grocery</h2>
-            <img src="image/img79.jpg" alt="">
-            <p>tito's ORAGANIC Ambemohar Rich | White | 1 Kg | Pack Of 3 </p>
-            <h5><i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: #000000;"></i> 450 
-            <span style="font-size: 11px;">M.R.P</span></h5>
-            <a href="">Shop now</a>
-        </div>
-        <div class="k3">
-            <h2>Customers’ Most-Loved Fashion for you</h2>
-            <div class="k3a"><img src="image/img80.jpg" alt=""></div>
-            <div class="k3b"><img src="image/img81.jpg" alt=""></div>
-            <div class="k3c"><img src="image/img82.jpg" alt=""></div>
-            <div class="k3d"><img src="image/img83.jpg" alt=""></div>
-        </div>
-        <div class="k4">
-            <h2>Best Sellers in Clothing & Accessories</h2>
-            <div class="k4a"><img src="image/img49.jpg" alt=""></div>
-            <div class="k4b"><img src="image/img50.jpg" alt=""></div>
-            <div class="k4c"><img src="image/img51.jpg" alt=""></div>
-            <div class="k4d"><img src="image/img52.jpg" alt=""></div>
-        </div>
-      </div>
 
-       <!-- section-12 -->
-       <div class="l bg-light">
-        <p>Best Sellers in Home & Kitchen</p>
-        <div class="l1"><img src="image/img84.jpg" alt=""></div>
-        <div class="l2"><img src="image/img85.jpg" alt=""></div>
-        <div class="l3"><img src="image/img86.jpg" alt=""></div>
-        <div class="l4"><img src="image/img87.jpg" alt=""></div>
-        <div class="l5"><img src="image/img88.jpg" alt=""></div>
-        <div class="l6"><img src="image/img89.jpg" alt=""></div>
-        <div class="l7"><img src="image/img90.jpg" alt=""></div>
-     </div>
-
-     <div class="m"></div>
-     <!-- footer -->
-      <footer>
-        <div class="n">
-            <div class="n1">
-                <h5>Get to Know <br> Us</h5>
-                <ul>
-                    <li><a href="">About Us</a></li>                   
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Press Releases</a></li>
-                    <li><a href="">Amazon Science</a></li>
-                </ul>
-            </div>
-            <div class="n2">
-                <h5>Connect with <br> Us</h5>
-                <ul>
-                    <li><a href="">Facebook</a></li>                   
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">Instagram</a></li>
-                </ul>
-            </div>
-            <div class="n3">
-                <h5>Make Money with Us</h5>
-                <ul>
-                    <li><a href="">Sell on Amazon</a></li>                   
-                    <li><a href="">Sell under Amazon <br>Accelerator</a></li>
-                    <li><a href="">Protect and Build Your Brand</a></li>
-                    <li><a href="">Amazon Global Selling</a></li>
-                    <li><a href="">Supply to Amazon</a></li>
-                    <li><a href="">Become an Affiliate</a></li>
-                    <li><a href="">Fulfilment by Amazon</a></li>
-                    <li><a href="">Advertise Your Products</a></li>
-                    <li><a href="">Amazon Pay on Merchants</a></li>
-                </ul>
-            </div>
-            <div class="n4">
-                <h5>Let Us Help You</h5>
-                <ul>
-                    <li><a href="">Your Account</a></li>                   
-                    <li><a href="">Returns Centre</a></li>
-                    <li><a href="">Recalls and Product Safety <br> Alerts</a></li>
-                    <li><a href="">100% Purchase Protection</a></li>
-                    <li><a href="">Amazon App Download</a></li>
-                    <li><a href="">Help</a></li>
-                </ul>
-            </div>
-        </div><br>
-        <hr style="border: 1px solid #ddd;"><br>
-        <div class="n5">
-            <img src="image/logo2.png" alt="">
-            <select>
-                <option value=""> 🌐 English</option>
-                <option value=""> हिन्दी - HI - अनुवाद</option>
-                <option value="">தமிழ் - TA - மொழிபெயர்ப்பு</option>
-                <option value="">తెలుగు - TE - అనువాదం</option>
-                <option value="">ಕನ್ನಡ - KN - ಭಾಷಾಂತರ</option>
-                <option value="">മലയാളം - ML - വിവർത്തനം</option>
-                <option value="">বাংলা - BN - অনুবাদ</option>
-                <option value="">मराठी - MR - भाषांतर</option>
-            </select>
-            <button><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag"> India</button>
-
+        <!-- section-12 -->
+        <div class="l bg-light">
+            <p>Best Sellers in Home & Kitchen</p>
+            <div class="l1"><img src="image/img84.jpg" alt=""></div>
+            <div class="l2"><img src="image/img85.jpg" alt=""></div>
+            <div class="l3"><img src="image/img86.jpg" alt=""></div>
+            <div class="l4"><img src="image/img87.jpg" alt=""></div>
+            <div class="l5"><img src="image/img88.jpg" alt=""></div>
+            <div class="l6"><img src="image/img89.jpg" alt=""></div>
+            <div class="l7"><img src="image/img90.jpg" alt=""></div>
         </div>
-      </footer>
+
+        <div class="m">Back to top</div>
+        <!-- footer -->
+        <footer>
+            <div class="n">
+                <div class="n1">
+                    <h5>Get to Know <br> Us</h5>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Press Releases</a></li>
+                        <li><a href="">Amazon Science</a></li>
+                    </ul>
+                </div>
+                <div class="n2">
+                    <h5>Connect with <br> Us</h5>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="n3">
+                    <h5>Make Money with Us</h5>
+                    <ul>
+                        <li><a href="">Sell on Amazon</a></li>
+                        <li><a href="">Sell under Amazon <br>Accelerator</a></li>
+                        <li><a href="">Protect and Build Your Brand</a></li>
+                        <li><a href="">Amazon Global Selling</a></li>
+                        <li><a href="">Supply to Amazon</a></li>
+                        <li><a href="">Become an Affiliate</a></li>
+                        <li><a href="">Fulfilment by Amazon</a></li>
+                        <li><a href="">Advertise Your Products</a></li>
+                        <li><a href="">Amazon Pay on Merchants</a></li>
+                    </ul>
+                </div>
+                <div class="n4">
+                    <h5>Let Us Help You</h5>
+                    <ul>
+                        <li><a href="">Your Account</a></li>
+                        <li><a href="">Returns Centre</a></li>
+                        <li><a href="">Recalls and Product Safety <br> Alerts</a></li>
+                        <li><a href="">100% Purchase Protection</a></li>
+                        <li><a href="">Amazon App Download</a></li>
+                        <li><a href="">Help</a></li>
+                    </ul>
+                </div>
+            </div><br>
+            <hr style="border: 1px solid #ddd;"><br>
+            <div class="n5">
+                <img src="image/logo2.png" alt="">
+                <select>
+                    <option value=""> 🌐 English</option>
+                    <option value=""> हिन्दी - HI - अनुवाद</option>
+                    <option value="">தமிழ் - TA - மொழிபெயர்ப்பு</option>
+                    <option value="">తెలుగు - TE - అనువాదం</option>
+                    <option value="">ಕನ್ನಡ - KN - ಭಾಷಾಂತರ</option>
+                    <option value="">മലയാളം - ML - വിവർത്തനം</option>
+                    <option value="">বাংলা - BN - অনুবাদ</option>
+                    <option value="">मराठी - MR - भाषांतर</option>
+                </select>
+                <button><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag">
+                    India</button>
+
+            </div>
+        </footer>
 
 
 
@@ -583,8 +624,8 @@
 
 <script src="script.js"></script>
 
- <!-- Swiper JS -->
- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
 </html>

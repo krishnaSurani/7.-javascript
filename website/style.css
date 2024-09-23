@@ -55,6 +55,8 @@ header .account{
     width: 30%;
     color: white;
     padding: 5px;
+    /* border: 1px solid white; */
+    
    
 }
 header .account .language{
@@ -70,6 +72,11 @@ header .account .indenflag{
 .acc1,.acc2,.acc3,.acc4{
     /* border: 1px solid white; */
     width: 100px;
+    height: 100%;
+    text-align: center;
+}
+.acc1:hover,.acc2:hover,.acc3:hover,.acc4:hover{
+    border: 1px solid white;
 }
 .acco{
     background-color: white;
@@ -491,7 +498,7 @@ header .account .indenflag{
 .j .j1{
     height: 80%;
     width: 30%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .j .j2{
     height: 80%;
@@ -693,7 +700,13 @@ header .account .indenflag{
     height: 40px;
     width: 100%;
     background-color: #29394be6;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 10px;
+    cursor: pointer;    
 }
+
 
 /* footer */
 

@@ -7,7 +7,7 @@
       "about": "Samsung Galaxy M15 5G (Blue Topaz,6GB RAM,128GB Storage)| 50MP Triple Cam| 6000mAh Batte..",
       "rate": "1,648",
       "dis": "-15%",
-      "price": "₹14,499.00",
+      "price": "14499",
       "deli": "FREE Delivery by Amazon",
       "id": "6657"
     },
@@ -17,7 +17,7 @@
       "about": "Kapa Soft Full Fabric Protective Back Case Cover for OnePlus 12R | Shockproof Slim Hard Anti Slip Ba…",
       "rate": "8",
       "dis": "-50%",
-      "price": "₹499.00",
+      "price": "499",
       "deli": "FREE Delivery by Amazon",
       "id": "ab84"
     },
@@ -27,7 +27,7 @@
       "about": "iQOO Z9s Pro 5G (Flamboyant Orange, 8GB RAM, 128GB Storage) | Snapdragon 7..",
       "rate": "274",
       "dis": "-17%",
-      "price": "₹24,998.00",
+      "price": "24998",
       "deli": "FREE Delivery by Amazon",
       "id": "b267"
     },
@@ -37,7 +37,7 @@
       "about": "Samsung Galaxy S23 Ultra 5G AI Smartphone (Phantom Black, 12GB, 256GB Storage)",
       "rate": "1.389",
       "dis": "-43%",
-      "price": "₹84,999.00",
+      "price": "84999",
       "deli": "FREE Delivery by Amazon",
       "id": "677f"
     },
@@ -47,12 +47,61 @@
       "about": "Redmi 13 5G, Hawaiian Blue, 6GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro..",
       "rate": "1,104",
       "dis": "-22%",
-      "price": "₹13,998.00",
+      "price": "13998",
+      "deli": "FREE Delivery by Amazon",
+      "id": "8913"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/41fmnWwAWZL._MCnd_AC_.jpg",
+      "modal": "Lava",
+      "about": "Lava Blaze X 5G - Starlight Purple (4GB RAM | 128GB Storage) - Segment First 5G Curved..",
+      "rate": "192",
+      "dis": "-12%",
+      "price": "14999",
+      "deli": "FREE Delivery by Amazon",
+      "id": "6657"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/41hmUyFtwdL._MCnd_AC_.jpg",
+      "modal": "iQOO",
+      "about": "iQOO Z9 Lite 5G (Mocha Brown, 6GB RAM, 128GB Storage) | Dimensity 6300 5G | 50MP Sony…",
+      "rate": "863",
+      "dis": "-12%",
+      "price": "14999",
+      "deli": "FREE Delivery by Amazon",
+      "id": "ab84"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/41nldTWR8VL._MCnd_AC_.jpg",
+      "modal": "HMD",
+      "about": "HMD Crest 5G | Segment First 50 MP Selfie Camera | 50 MP Dual Rear AI Camera | FHD+..",
+      "rate": "279",
+      "dis": "-24%",
+      "price": "14499",
+      "deli": "FREE Delivery by Amazon",
+      "id": "b267"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/41Mje26R9-L._MCnd_AC_.jpg",
+      "modal": "Nokia",
+      "about": "Nokia G42 5G | Snapdragon® 480+ 5G | 50MP Triple AI Camera | 11GB RAM (6GB RAM + 5GB..",
+      "rate": "5020",
+      "dis": "-30%",
+      "price": "11499",
+      "deli": "FREE Delivery by Amazon",
+      "id": "677f"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/41ERwnyqCDL._MCnd_AC_.jpg",
+      "modal": "POCO",
+      "about": "POCO M6 5G (Galactic Black, 8GB RAM, 256GB Storage) | MediaTek Dimensity 6100+ 5..",
+      "rate": "1,613",
+      "dis": "-5%",
+      "price": "13498",
       "deli": "FREE Delivery by Amazon",
       "id": "8913"
     }
   ],
-  "cart": [],
   "users": [
     {
       "id": "a7ba",
@@ -67,16 +116,130 @@
       "password": "123456"
     },
     {
-      "id": "66c4",
+      "id": "8ed5",
       "user": "krishna",
       "email": "krishnasurani07@gmail.com",
-      "password": "987456"
+      "password": "9630"
     },
     {
-      "id": "7ad9",
+      "id": "edce",
       "user": "krishna",
       "email": "krishnasurani07@gmail.com",
-      "password": "987456"
+      "password": "123654"
+    }
+  ],
+  "electronic": [
+    {
+      "image": "https://m.media-amazon.com/images/I/51yQPG4rftL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "Dell Vostro, Core i5-1235U, 12th Gen (8GB RAM/512GB SSD/FHD/Window 11/MS Office' 21/15.6(38 cm)/15..",
+      "rate": "535",
+      "price": "47990",
+      "dis": "(23% off)",
+      "deli": "Get it by Tomorrow, 23 September <br> FREE Delivery by Amazon",
+      "id": "308b"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/81Be1f26lVL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "Lenovo IdeaPad Slim 3 13th Gen Intel Core i3 15.6 inch (39.6cm) FHD Laptop (8GB/512GB SSD/Windows..",
+      "rate": "27",
+      "price": "38450",
+      "dis": "(42% off)",
+      "deli": "Get it by Tomorrow, 23 September <br> FREE Delivery by Amazon",
+      "id": "c74b"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61yAvuCWAdL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "HP Laptop 15, 12th Generation Intel® Core i5-1235U,15.6-inch <br>(39.6 cm),FHD,8GB DDR4 RAM,1TB.. ",
+      "rate": "4",
+      "price": "49900",
+      "dis": "(29% off)",
+      "deli": "Get it by Friday , 27 September <br> FREE Delivery by Amazon",
+      "id": "46bf"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61vGumezioL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "Lenovo ThinkPad 6th Gen Intel Core i5 Thin & Light HD Laptop (16GB RAM / 512GB SSD /14 (35.6 cm)..",
+      "rate": "719",
+      "price": "15440",
+      "dis": "(76% off)",
+      "deli": "Get it by Friday , 27 September <br> FREE Delivery by Amazon",
+      "id": "ef0e"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/71czGb00k5L._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "Acer Aspire Lite 12th Gen Intel Core i3-1215U Premium Metal Laptop (Windows 11 Home/8 GB RAM/512GB SSD) AL15-5..",
+      "rate": "955",
+      "price": "29990 ",
+      "dis": "(43% off)",
+      "deli": "Get it by Tomorrow, 23 September <br> FREE Delivery by Amazon",
+      "id": "5dd0"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/71ykbL+REgL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "ASUS Vivobook 15, Intel Celeron N4020, 15.6 (39.62 cms) HD, Thin and Light Laptop (8GB/512GB SSD/Integrated..",
+      "rate": "1678",
+      "price": "24990",
+      "dis": "(36% off)",
+      "deli": "Get it by Tomorrow, 23 September <br> FREE Delivery by Amazon",
+      "id": "2606"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61xlOv4ZmiL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "Chuwi HeroBook Pro 14.1'' Intel Celeron N4020 Laptop with 8GB RAM, 256GB SSD, Windows 11, 1TB Expand, FHD..",
+      "rate": "3075",
+      "price": "15,990",
+      "dis": "(57% off)",
+      "deli": "Get it by Tomorrow, 23 September <br> FREE Delivery by Amazon",
+      "id": "8602"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/81Xvvl-36aL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "Acer One 14 AMD Ryzen 3 3250U Processor (8GB RAM/512GB SSD/AMD Radeon Graphics/Windows 11 Home)..",
+      "rate": "178",
+      "price": "24990",
+      "dis": "(38% off)",
+      "deli": "Get it by Tomorrow, 23 September <br> FREE Delivery by Amazon",
+      "id": "ae20"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/51W7yr0NrIL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "(Refurbished) Lenovo ThinkPad 8th Gen Intel Core i5 Thin & Light HD Laptop (8 GB DDR4 RAM/256 GB SSD/14..",
+      "rate": "177",
+      "price": "15905",
+      "dis": "(73% off)",
+      "deli": "Get it by Saturday 28 September <br> FREE Delivery by Amazon",
+      "id": "2adb"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61qlqvTsocL._AC_UL480_FMwebp_QL65_.jpg",
+      "about": "Acer Aspire 3 Laptop Intel Core Celeron N4500 Processor Laptop (8 GB LPDDR4X SDRAM/512 GB SSD/Win11..",
+      "rate": "46",
+      "price": "21690",
+      "dis": "(33% off)",
+      "deli": "Get it by Thursday 26 September <br> FREE Delivery by Amazon",
+      "id": "c439"
+    }
+  ],
+  "cart": [
+    {
+      "id": "6657",
+      "image": "https://m.media-amazon.com/images/I/415C6L00ZjL._MCnd_AC_.jpg",
+      "modal": "Samsung",
+      "about": "Samsung Galaxy M15 5G (Blue Topaz,6GB RAM,128GB Storage)| 50MP Triple Cam| 6000mAh Batte..",
+      "rate": "1,648",
+      "dis": "-15%",
+      "price": "14499",
+      "deli": "FREE Delivery by Amazon"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/513A4tPlWPL._MCnd_AC_.jpg",
+      "modal": "Kapa",
+      "about": "Kapa Soft Full Fabric Protective Back Case Cover for OnePlus 12R | Shockproof Slim Hard Anti Slip Ba…",
+      "rate": "8",
+      "dis": "-50%",
+      "price": "499",
+      "deli": "FREE Delivery by Amazon",
+      "id": "ab84"
     }
   ]
 }

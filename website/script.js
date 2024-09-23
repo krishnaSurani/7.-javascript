@@ -121,3 +121,13 @@ $(document).ready(function(){
   })
   
 })
+
+// scroll-top
+
+$(document).ready(function(){
+  $(".m").click(function(){
+      $('html,body').animate({scrollTop:0},1000)
+  })
+
+
+})
