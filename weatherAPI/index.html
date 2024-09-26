@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<style>
+    *{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    body{
+        background-color: rgba(245, 245, 245, 0.74);
+    }
+    .main{
+        height: 550px;
+        width: 40%;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background:linear-gradient(135deg, #00feba,#5b548a);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 30%;
+        box-shadow: 0px 0px 5px 0px gray;
+    }
+    .search{
+        height: 15%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+
+    .search #data{
+        height: 40px;
+        width: 50%;
+        border-radius: 20px;
+        padding-left: 15px;
+        outline: 0;
+        font-size: 17px;
+        color: #333;
+        border: 0;
+        margin-left: 6%;
+    }
+    .search #data::placeholder{
+        color: #333;
+        font-size: 17px;
+    }
+    .search button{
+        height: 40px;
+        width: 90px;
+        border-radius: 20px;
+        margin-right: 6%;
+        font-size: 16px;
+        color: #333;
+        padding: 5px;
+        border: 0;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .search button:hover{
+        box-shadow: 0px 0px 5px 0px gray;
+    }
+    .data1{
+        height: 85%;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .weather-icon{
+        height: 150px;
+        width: 35%;
+        /* border: 1px solid black; */
+    }
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500px;
+        font-size: 48px;
+        margin-top: -2%;
+    }
+    .city{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500px;
+        font-size: 40px;
+        margin-top: -5%;
+    }
+    .wd{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500px;
+        font-size: 22px;
+        margin-top: -5%;
+    }
+    .detail {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .detail .col{
+        height: 100px;
+        margin-left: 15%;
+        /* margin-right: 15%; */
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .detail .col img{
+        width: 50px;
+    }
+    .detail .col .ab{
+        height: 50%;
+        width: 100px;
+        position: relative;
+    }
+    .detail .col .ab h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: -30%;
+        left: 12%;
+    }
+    .detail .col .ab p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: 20%;
+        left: 12%;
+    }
+
+    .detail .col1{
+        height: 100px;
+        /* margin-left: 15%; */
+        margin-right: 13%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .detail .col1 img{
+        width: 50px;
+    }
+    .detail .col1 .ab{
+        height: 50%;
+        width: 100px;
+        position: relative;
+    }
+    .detail .col1 .ab h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: -30%;
+        left: 12%;
+    }
+    .detail .col1 .ab p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: 20%;
+        left: 12%;
+    }
+</style>
+<body>
+    
+    <div class="main">
+
+        <div class="search">
+            <input type="text" name="" id="data" placeholder="Enter city name">
+            <button id="search">Search</button>
+        </div>
+        <div class="data1">
+  
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
