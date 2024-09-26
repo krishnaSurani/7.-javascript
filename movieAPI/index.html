@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #movie{
+            height: auto;
+            width: 100%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            
+        }
+        #box{
+            height: 400px;
+            width: 18%;
+            /* border: 1px solid white; */
+            margin-top: 15px;
+        }
+        #box #img{
+            height: 80%;
+            width: 100%;
+            /* border: 1px solid red; */
+            margin-bottom: 8px;
+        }
+        #box #img img{
+            height: 100%;
+            width: 100%;
+        }
+        #box .about{
+            padding-left: 10px;
+        }
+        #box .title{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #box .rating{
+            color: white;
+            /* font-size: 20px; */
+            font-weight: bold;
+        }
+        #box:hover{
+            box-shadow: 0px 0px 20px 0px gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="movie"></div>
+</body>
+
+<script src="script.js"></script>
+</html>
