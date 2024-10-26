@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- remixicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body class="p-0 m-0 box-border">
+    <iframe src="header.html" style="border:none; width: 100%; height: 28vh;"></iframe>
+
+
+    <!-- <header class="h-[28vh] w-full">
+        <div class="headline h-[18%] w-full bg-[#1d1d1d] text-white px-[10%] pt-[5px]">
+
+            <marquee direction="left" width="100%" scrollamount="12" id="myMarquee"
+                onmouseenter="document.getElementById('myMarquee').stop()"
+                onmouseleave="document.getElementById('myMarquee').start()">
+                <span class="mr-[25rem] text-xs font-[poppins]">SALE is Live!</span>
+                <span class="mr-[25rem] text-xs font-[poppins]">Get up to ₹750 cashback on payment via Mobikwik wallet
+                    over Rs. 2499. T&amp;C Apply*.</span>
+                <span class="mr-[25rem] text-xs font-[poppins]">SALE is Live!</span>
+            </marquee>
+
+
+        </div>
+        <div class="subheader h-2/6 shadow-sm">
+            <div class="w-[90%] h-3/4  ml-[5%] mt-[10px] flex">
+                <div class="logo w-1/5 h-full flex items-center justify-evenly"><img src="image/logo.svg" alt=""></div>
+                <div class="search w-1/2 h-full relative">
+                    <i class="fa-solid fa-magnifying-glass fa-sm  absolute top-[50%] left-[30px]"
+                        style="color: rgb(115, 115, 115);"></i>
+                    <input type="text" class="border border-current w-[42.875rem] h-full pl-14 bg-[#fbfafa]"
+                        placeholder="Search">
+                    <i class="ri-mic-line absolute top-[20%] right-[20px]" style="color: #737373;"></i>
+                </div>
+                <div class="icon w-[30%] h-full flex">
+                    <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
+                        <i class="fa-regular fa-user" style="color: #818080;"></i>
+                        <span class="text-xs pt-1 font-[poppins] cursor-pointer">Account</span>
+                    </div>
+                    <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
+                        <i class="fa-regular fa-heart" style="color: #818080;"></i>
+                        <span class="text-xs pt-1 font-[poppins] cursor-pointer">Wishlist</span>
+                    </div>
+                    <div class="h-full w-1/4 flex items-center justify-between flex-col">
+                        <i class="ri-shopping-bag-line h-2/3" style="color: #818080;"></i>
+                        <span class="text-xs pt-1 font-[poppins] cursor-pointer h-7">Cart</span>
+                    </div>
+                    <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
+                        <i class="ri-mail-settings-line h-2/5" style="color: #818080;"></i>
+                        <span class="text-xs pt-1 font-[poppins] cursor-pointer">Track Order</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-1/2">
+            <div class="w-4/5 h-1/2 m-auto">
+                <ul class="flex justify-evenly items-center pt-3 text-#212121 font-[poppins] text-sm">
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">WOMEN</a></li>
+                    <li><a href="">SMART WATCHS</a></li>
+                    <li><a href="">PREMIUM WATCHS</a></li>
+                    <li><a href="">WATCHS</a></li>
+                    <li><a href="">INTERNATIONAL BRANDS</a></li>
+                    <li><a href="">GIFTING</a></li>
+                    <li><a href="">SALE</a></li>
+                    <li><a href="">WATCH SERVICE</a></li>
+                    <li><a href="">MORE</a></li>
+                </ul>
+            </div>
+            <div class="h-1/4 bg-[#FDFAF5] mt-3">
+                <i class="ri-map-pin-line text-[#818080] pl-[10%]"></i>
+                <span class="text-xs">Select a location to see product availability</span>
+            </div>
+        </div>
+    </header> -->
+
+
+
+    <!-- section-1 -->
+    <div class="h-[600px] w-full border-dark">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/i1.webp" alt="" class="slidimg"></div>
+                <div class="swiper-slide"><img src="image/i2.webp" alt="" class="slidimg"></div>
+                <div class="swiper-slide"><img src="image/i3.webp" alt="" class="slidimg"></div>
+                <div class="swiper-slide"><img src="image/i4.jpg" alt="" class="slidimg"></div>
+                <div class="swiper-slide"><img src="image/i5.jpg" alt="" class="slidimg"></div>
+                <div class="swiper-slide"><img src="image/i6.webp" alt="" class="slidimg"></div>
+            </div>
+            <div class="swiper-button-next text-black bg-white rounded-full h-10 w-10 text-xs"></div>
+            <div class="swiper-button-prev text-black bg-white rounded-full h-10 w-10 text-xs"></div>
+        </div>
+    </div>
+
+    <!-- section-2 -->
+    <div class="h-[500px] w-full">
+        <div class="h-[10%] w-4/5 m-auto mt-2">
+            <ul class="flex justify-evenly items-center pt-2">
+                <li><a href="">Sale</a> <hr class="w-9 mt-1 rounded-full" style="border: 3px solid #f0ab3cc6; margin-left: -4px;"></li>
+                <li><a href="">Workwear</a> <hr class="w-15 mt-1 rounded-full" style="border: 3px solid #f0ab3cc6; margin-left: -4px;"></li>
+                <li><a href="">International</a> <hr class="w-19 mt-1 rounded-full" style="border: 3px solid #f0ab3cc6; margin-left: -4px;"></li>
+                <li><a href="">Nebula</a> <hr class="w-14 mt-1 rounded-full" style="border: 3px solid #f0ab3cc6; margin-left: -4px;"></li>
+                <li><a href="">Raga</a> <hr class="w-10 mt-1 rounded-full" style="border: 3px solid #f0ab3cc6; margin-left: -4px;"></li>
+                <li><a href="">Premium</a> <hr class="w-16 mt-1 rounded-full" style="border: 3px solid #f0ab3cc6; margin-left: -4px;"></li>
+                <li><a href="">Smart</a> <hr class="w-12 mt-1 rounded-full" style="border: 3px solid #f0ab3cc6; margin-left: -4px;"></li>
+                <li><a href="">Clocks</a> <hr class="w-15 mt-1 rounded-full" style="border: 3px solid #f0ab3cc6; margin-left: -4px;"></li>
+            </ul>
+        </div>
+
+        <div class="h-4/5 w-[90%] ms-[5%] mt-5 flex justify-evenly">
+            <div class="h-[90%] w-[47%]"><img src="image/i7.webp" alt="" class="h-full w-full"></div>
+            <div class="h-[90%] w-[47%]"><img src="image/i8.jpg" alt="" class="h-full w-full"></div>
+        </div>
+    </div>
+
+    <div class="h-52 w-full">
+        <div class="h-[90%] w-4/5 m-auto">
+            <img src="image/i9.webp" alt="" class="h-full w-full img">
+            <img src="image/i10.webp" alt="" class="h-full w-full img">
+            <img src="image/i11.jpg" alt="" class="h-full w-full img">
+        </div>
+    </div>
+
+
+    <!-- section-3 -->
+
+    <div class="h-[350px] w-100">
+        <h3 class="w-full text-center text-3xl font-normal">THE BEST WAY TO BUY THE PRODUCTS YOU LOVE</h3>
+          <!-- Swiper -->
+  <div class="swiper mySwiper2 h-[70%] w-[90%] mt-4 pt-3">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide pt-3"><img src="image/i12.webp" alt=""></div>
+      <div class="swiper-slide pt-3"><img src="image/i13.webp" alt=""></div>
+      <div class="swiper-slide pt-3"><img src="image/i14.webp" alt=""></div>
+      <div class="swiper-slide pt-3"><img src="image/i15.webp" alt=""></div>
+      <div class="swiper-slide pt-3"><img src="image/i16.webp" alt=""></div>
+      <div class="swiper-slide pt-3"><img src="image/i17.webp" alt=""></div>
+      <div class="swiper-slide pt-3"><img src="image/i18.webp" alt=""></div>
+      <div class="swiper-slide pt-3"><img src="image/i19.webp" alt=""></div>
+      <div class="swiper-slide pt-3"><img src="image/i20.webp" alt=""></div>
+    </div>
+    <div class="swiper-button-next text-black"></div>
+    <div class="swiper-button-prev text-black"></div>
+  </div>
+    </div>
+
+
+
+
+<!-- 
+    <footer class="h-[420px] w-full bg-[#010101] flex justify-evenly items-center">
+        <div class="h-3/4 w-[10%]">
+            <h5 class="text-[#f8f8f8] font-[poppins] pb-[8%]">COLLECTIONS</h5>
+            <ul>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Titan Automatics</a></li>                
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Police Batman</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Stellar</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Raga Power Pearls</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Nebula Jewels</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Grandmaster</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Maritime</a></li>
+            </ul>
+        </div>
+        <div class="h-3/4 w-[10%]">
+            <h5 class="text-[#f8f8f8] font-[poppins] pb-[8%]">CUSTOMER SERVICE</h5>
+            <ul>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Payment Options</a></li>                
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Track Order</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Encircle Program</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Find Titan World Stores</a></li>
+            </ul>
+        </div>
+        <div class="h-3/4 w-[10%]">
+            <h5 class="text-[#f8f8f8] font-[poppins] pb-[8%]">CONTACT US</h5>
+            <ul>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">1800-266-0123</a></li>                
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">customercare@titan.co.in</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Help & Contact</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="h-3/4 w-[10%]">
+            <h5 class="text-[#f8f8f8] font-[poppins] pb-[8%]">ABOUT TITAN</h5>
+            <ul>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Brand Protection</a></li>                
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Corporate</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Careers</a></li>
+                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Blog</a></li>
+            </ul>
+        </div>
+        <div class="h-4/5 w-1/4">
+            <p class="text-white font-[poppins] text-[16px]">Download Titan World App</p>
+            <div class="h-[40px] w-full mt-4 flex">
+                <img src="image/Group 15609.png" alt="">
+                <img src="image/Group 15610@2x.png" alt="" class="ms-3">
+            </div>
+           
+            <p class="text-white font-[poppins] text-[16px] w-full mt-4">Follow Us With</p>
+            <div class="h-[40px] w-full mt-2 flex">
+                <i class="fa-brands fa-facebook-f fa-xs bg-[rgb(59,59,59)] h-7 w-7 flex justify-center items-center rounded-full text-[#d8d8d8]"></i>
+                <i class="fa-brands fa-instagram fa-xs bg-[rgb(59,59,59)] h-7 w-7 flex justify-center items-center rounded-full text-[#d8d8d8] ms-3"></i>
+                <i class="fa-brands fa-x-twitter fa-xs bg-[rgb(59,59,59)] h-7 w-7 flex justify-center items-center rounded-full text-[#d8d8d8] ms-3"></i>
+                <i class="fa-brands fa-youtube fa-xs bg-[rgb(59,59,59)] h-7 w-7 flex justify-center items-center rounded-full text-[#d8d8d8] ms-3"></i>
+            </div>
+            
+        </div>
+    </footer> -->
+
+
+
+
+
+
+
+
+
+    <iframe src="footer.html" style="border:none; width: 100%; height: 420px;"></iframe>
+
+
+
+<script src="js/script.js"></script>
+</body>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+<script>
+    
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  var swiper = new Swiper(".mySwiper2", {
+      slidesPerView: 6,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+
+</script>
+ 
+</html>

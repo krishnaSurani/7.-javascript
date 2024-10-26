@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- tailwindcss -->
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="h-[28vh] w-full">
+        <div class="headline h-[18%] w-full bg-[#1d1d1d] text-white px-[10%] pt-[5px]">
+    
+            <marquee direction="left" width="100%" scrollamount="12" id="myMarquee"
+                onmouseenter="document.getElementById('myMarquee').stop()"
+                onmouseleave="document.getElementById('myMarquee').start()">
+                <span class="mr-[25rem] text-xs font-[poppins]">SALE is Live!</span>
+                <span class="mr-[25rem] text-xs font-[poppins]">Get up to ₹750 cashback on payment via Mobikwik wallet
+                    over Rs. 2499. T&amp;C Apply*.</span>
+                <span class="mr-[25rem] text-xs font-[poppins]">SALE is Live!</span>
+            </marquee>
+    
+    
+        </div>
+        <div class="subheader h-2/6 shadow-sm">
+            <div class="w-[90%] h-3/4  ml-[5%] mt-[10px] flex">
+                <div class="logo w-1/5 h-full flex items-center justify-evenly"><img src="image/logo.svg" alt=""></div>
+                <div class="search w-1/2 h-full relative">
+                    <i class="fa-solid fa-magnifying-glass fa-sm  absolute top-[50%] left-[30px]"
+                        style="color: rgb(115, 115, 115);"></i>
+                    <input type="text" class="border border-current w-[42.875rem] h-full pl-14 bg-[#fbfafa]"
+                        placeholder="Search">
+                    <i class="ri-mic-line absolute top-[20%] right-[20px]" style="color: #737373;"></i>
+                </div>
+                <div class="icon w-[30%] h-full flex">
+                    <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
+                        <i class="fa-regular fa-user" style="color: #818080;"></i>
+                        <span class="text-xs pt-1 font-[poppins] cursor-pointer">Account</span>
+                    </div>
+                    <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
+                        <i class="fa-regular fa-heart" style="color: #818080;"></i>
+                        <span class="text-xs pt-1 font-[poppins] cursor-pointer">Wishlist</span>
+                    </div>
+                    <div class="h-full w-1/4 flex items-center justify-between flex-col">
+                        <!-- <i class="fa-regular fa-user" style="color: #818080;"></i> -->
+                        <i class="ri-shopping-bag-line h-2/3" style="color: #818080;"></i>
+                        <span class="text-xs pt-1 font-[poppins] cursor-pointer h-7">Cart</span>
+                    </div>
+                    <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
+                        <i class="ri-mail-settings-line h-2/5" style="color: #818080;"></i>
+                        <span class="text-xs pt-1 font-[poppins] cursor-pointer">Track Order</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="h-1/2">
+            <div class="w-4/5 h-1/2 m-auto">
+                <ul class="flex justify-evenly items-center pt-3 text-#212121 font-[poppins] text-sm">
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">WOMEN</a></li>
+                    <li><a href="">SMART WATCHS</a></li>
+                    <li><a href="">PREMIUM WATCHS</a></li>
+                    <li><a href="">WATCHS</a></li>
+                    <li><a href="">INTERNATIONAL BRANDS</a></li>
+                    <li><a href="">GIFTING</a></li>
+                    <li><a href="">SALE</a></li>
+                    <li><a href="">WATCH SERVICE</a></li>
+                    <li><a href="">MORE</a></li>
+                </ul>
+            </div>
+            <div class="h-1/4 bg-[#FDFAF5] mt-3">
+                <i class="ri-map-pin-line text-[#818080] pl-[10%]"></i>
+                <span class="text-xs">Select a location to see product availability</span>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
