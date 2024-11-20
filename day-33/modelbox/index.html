@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model-Box</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <button id="model" style="height: 35px;width: 100px; border-radius: 5px;border: none;box-shadow: 1px 1px 10px 1px ghostwhite; cursor: pointer;position: absolute;top: 250px;left: 46%;">Click</button>
+    <div class="main-box" style="height: 100vh;width: 100%;border: 1px solid  black; display: flex;
+    justify-content: center;
+    align-items: center;">
+        <div id="main" style=" height: 300px;
+    width: 30%;
+    display: none;background-color: white;">
+        <div class="head">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;margin-left: 5%;">Model Box</h3>
+            <button id="close" style="margin-right: 5%;border: none;background-color: transparent;cursor: pointer;font-size: 18px;"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;width: 90%;margin-left:5% ;margin-top: 20px;letter-spacing: 0.5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis assumenda veritatis animi reiciendis quam suscipit est atque explicabo illum, harum dolores non, repudiandae ea delectus eius sint voluptatum nisi magnam voluptatibus. Rem laboriosam repellat repudiandae doloribus quos cumque quasi fuga magni laborum, porro ullam, ducimus ad culpa, dolorum earum. Rem laboriosam repellat repudiandae doloribus quos cumque quasi fuga magni laborum.</p>
+    </div>
+
+    </div>
+    
+</body>
+<script>
+    document.getElementById("model").addEventListener("click",()=>{
+
+        document.getElementById("main").style.display="block";
+        document.getElementById("model").style.display="none";
+    })
+
+    document.getElementById("close").addEventListener("click",()=>{
+        document.getElementById("main").style.display="none";
+        document.getElementById("model").style.display="block";
+    })
+    document.querySelector(".main-box").addEventListener("click",()=>{
+        document.getElementById("main").style.display="none";
+        document.getElementById("model").style.display="block";
+    })
+</script>
+</html>

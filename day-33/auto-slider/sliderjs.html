@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(to right,rgb(188, 217, 229),rgb(247, 250, 255));
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        div{
+            height: 620px;
+            padding: 20px;
+        }
+        div img{
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>javascript slider</h1>
+    <div>
+        <img src="image/bryant-park-4388405_1920.jpg" alt="" class="img">
+        <img src="image/luis-i-bridge-8201941_1920.jpg" alt="" class="img">
+        <img src="image/new-york-1912582_1920.jpg" alt="" class="img">
+        <img src="image/north-america-1803504_1920.jpg" alt="" class="img">
+        <img src="image/oxnard-1584096_1920.jpg" alt="" class="img">
+        <img src="image/skyline-2294676_1920.jpg" alt="" class="img">
+        <img src="image/statue-of-liberty-100726_1920.jpg" alt="" class="img">
+        <img src="image/vegas-105507_1920.jpg" alt="" class="img">
+    </div>
+</body>
+<script>
+    var counter=0;
+    function slider()
+    {
+        var arr=document.getElementsByClassName('img');
+
+        for(var i=0;i<arr.length;i++)
+        {
+            arr[i].style.display="none";
+        }
+        if(counter==arr.length)
+        {
+            counter=0;
+        }
+
+        arr[counter].style.display="block"
+        counter++;
+
+        setTimeout(slider,2000);
+    }
+    slider()
+</script>
+</html>

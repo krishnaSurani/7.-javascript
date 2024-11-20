@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background: linear-gradient(90deg, rgba(42,62,148,1) 0%, rgba(88,172,207,0.947391456582633) 52%, rgba(69,80,163,1) 100%);
+
+}
+
+#main .head{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
