@@ -39,10 +39,10 @@
 </head>
 
 <body class="p-0 m-0 box-border">
-    <iframe src="header.html" style="border:none; width: 100%; height: 28vh;"></iframe>
+    <!-- <iframe src="header.html" style="border:none; width: 100%; height: 28vh;"></iframe> -->
 
 
-    <!-- <header class="h-[28vh] w-full">
+    <header class="h-[28vh] w-full">
         <div class="headline h-[18%] w-full bg-[#1d1d1d] text-white px-[10%] pt-[5px]">
 
             <marquee direction="left" width="100%" scrollamount="12" id="myMarquee"
@@ -58,7 +58,7 @@
         </div>
         <div class="subheader h-2/6 shadow-sm">
             <div class="w-[90%] h-3/4  ml-[5%] mt-[10px] flex">
-                <div class="logo w-1/5 h-full flex items-center justify-evenly"><img src="image/logo.svg" alt=""></div>
+                <div class="logo w-1/5 h-full flex items-center justify-evenly"><a href="index.html"><img src="image/logo.svg" alt=""></a></div>
                 <div class="search w-1/2 h-full relative">
                     <i class="fa-solid fa-magnifying-glass fa-sm  absolute top-[50%] left-[30px]"
                         style="color: rgb(115, 115, 115);"></i>
@@ -67,22 +67,30 @@
                     <i class="ri-mic-line absolute top-[20%] right-[20px]" style="color: #737373;"></i>
                 </div>
                 <div class="icon w-[30%] h-full flex">
+                  <a href="" class="w-[17%] ms-5 ps-[30px]">
                     <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
-                        <i class="fa-regular fa-user" style="color: #818080;"></i>
-                        <span class="text-xs pt-1 font-[poppins] cursor-pointer">Account</span>
-                    </div>
-                    <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
+                      <i class="fa-regular fa-user" style="color: #818080;"></i>
+                      <span class="text-xs pt-1 font-[poppins] cursor-pointer">Account</span>
+                  </div>
+                  </a>
+                    <a href=""  class="w-[17%] ms-3 ps-[30px]">
+                      <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
                         <i class="fa-regular fa-heart" style="color: #818080;"></i>
                         <span class="text-xs pt-1 font-[poppins] cursor-pointer">Wishlist</span>
                     </div>
-                    <div class="h-full w-1/4 flex items-center justify-between flex-col">
+                    </a>
+                    
+                    <a href="cart.html"  class="w-[17%] ms-3 ps-[30px]">
+                      <div class="h-full w-1/4 flex items-center justify-between flex-col">
                         <i class="ri-shopping-bag-line h-2/3" style="color: #818080;"></i>
                         <span class="text-xs pt-1 font-[poppins] cursor-pointer h-7">Cart</span>
                     </div>
+                    </a>
                     <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
                         <i class="ri-mail-settings-line h-2/5" style="color: #818080;"></i>
                         <span class="text-xs pt-1 font-[poppins] cursor-pointer">Track Order</span>
                     </div>
+                  
                 </div>
             </div>
         </div>
@@ -90,8 +98,8 @@
         <div class="h-1/2">
             <div class="w-4/5 h-1/2 m-auto">
                 <ul class="flex justify-evenly items-center pt-3 text-#212121 font-[poppins] text-sm">
-                    <li><a href="">MEN</a></li>
-                    <li><a href="">WOMEN</a></li>
+                    <li><a href="men.html">MEN</a></li>
+                    <li><a href="women.html">WOMEN</a></li>
                     <li><a href="">SMART WATCHS</a></li>
                     <li><a href="">PREMIUM WATCHS</a></li>
                     <li><a href="">WATCHS</a></li>
@@ -107,7 +115,7 @@
                 <span class="text-xs">Select a location to see product availability</span>
             </div>
         </div>
-    </header> -->
+    </header>
 
 
 
@@ -160,10 +168,10 @@
 
     <!-- section-3 -->
 
-    <div class="h-[350px] w-100">
-        <h3 class="w-full text-center text-3xl font-normal">THE BEST WAY TO BUY THE PRODUCTS YOU LOVE</h3>
+    <div class="h-[320px] w-100">
+        <h3 class="w-full text-center text-[1.375rem] leading-9 font-normal">THE BEST WAY TO BUY THE PRODUCTS YOU LOVE</h3>
           <!-- Swiper -->
-  <div class="swiper mySwiper2 h-[70%] w-[90%] mt-4 pt-3">
+  <div class="swiper mySwiperA h-[70%] w-[90%] mt-4 pt-3">
     <div class="swiper-wrapper">
       <div class="swiper-slide pt-3"><img src="image/i12.webp" alt=""></div>
       <div class="swiper-slide pt-3"><img src="image/i13.webp" alt=""></div>
@@ -181,76 +189,175 @@
     </div>
 
 
+    <!-- section-4 -->
+
+    <div class="h-[550px] w-full">
+        <h3 class="w-full text-[1.375rem] leading-9 opacity-85 font-[poppins] pl-[10%]">Recommended For You</h3>
+
+         <!-- Swiper -->
+  <div class="swiper mySwiperB h-[90%] w-[90%]">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide text-left">
+        <img src="image/i21.jpg" alt="" class="h-[70%] w-full">
+        <h5 class="text-base font-medium text-left pt-2">Titan Neo Splash Quartz Multifunction Black Dial Stainless Steel Strap Watch for Men</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Men's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 7,345</span>
+    </div>
+
+      <div class="swiper-slide text-left"><img src="image/i22.jpg" alt="" class="h-[70%]">
+        <h5 class="text-base font-medium text-left pt-2">Titan Quartz Multifunction Blue Dial Leather Strap Watch for Men</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Men's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 5,995</span>
+    </div>
+
+      <div class="swiper-slide text-left"><img src="image/i23.jpg" alt="" class="h-[70%]">
+        <h5 class="text-base font-medium text-left pt-2">Titan Neo Black Dial Quartz Multifunction Stainless Steel Strap watch for Men</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Men's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 5,995</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i24.jpg" alt="" class="h-[70%] w-full">
+        <h5 class="text-base font-medium text-left pt-2">Titan Men's Trendsetter Watch: Chic Blue Dial & Two-Tone Strap</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Men's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 3,995</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i25.jpg" alt="" class="h-[70%] w-full">
+        <h5 class="text-base font-medium text-left pt-2">Titan Slim Quartz Multifunction Teal Dial Quartz Stainless Steel Strap watch for Men</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Men's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 5,825</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i26.jpg" alt="" class="h-[70%] w-full">
+        <h5 class="text-base font-medium text-left pt-2">Raga Women's Charm: Elegant Mother of Pearl Dial with Ornate Strap Watch</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Women's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 7,765</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i27.jpg" alt="" class="h-[70%]">
+        <h5 class="text-base font-medium text-left pt-2">Raga Women's Allure: Brown Dial with designer Metal Strap Watch</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Women's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 5,995</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i28.jpg" alt="" class="h-[70%] w-full">
+        <h5 class="text-base font-medium text-left pt-2">Titan Avant Garde Quartz Multifunction Silver Dial Leather Strap watch for Men</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Men's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 9,955</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i29.jpg" alt="" class="h-[70%]">
+        <h5 class="text-base font-medium text-left pt-2">Titan Crest with 3.63 cm AMOLED Display with AOD, Functional Crown, BT Calling</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Men's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 5,995</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i30.jpg" alt="" class="h-[70%] w-full">
+        <h5 class="text-base font-medium text-left pt-2">Titan Quartz Analog White Dial Ceramic Strap Watch for Women</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Women's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 9,995</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i31.jpg" alt="" class="h-[70%]">
+        <h5 class="text-base font-medium text-left pt-2">Titan Raga Showstopper Quartz Analog Of Pearl Dial Metal Strap Watch for Women</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Women's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 6,095</span>
+    </div>
+      <div class="swiper-slide text-left"><img src="image/i32.jpg" alt="" class="h-[70%]">
+        <h5 class="text-base font-medium text-left pt-2">Titan Valerie Premium Smartwatch with All 316L SS construction, Skin Temp.</h5>
+        <p class="text-sm font-medium text-[#999] font-[poppins] text-left pt-2">Women's Watch</p>
+        <span class="text-lg font-[poppins] font-medium">₹ 9,995</span>
+    </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+    </div>
 
 
-<!-- 
-    <footer class="h-[420px] w-full bg-[#010101] flex justify-evenly items-center">
-        <div class="h-3/4 w-[10%]">
-            <h5 class="text-[#f8f8f8] font-[poppins] pb-[8%]">COLLECTIONS</h5>
-            <ul>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Titan Automatics</a></li>                
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Police Batman</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Stellar</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Raga Power Pearls</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Nebula Jewels</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Grandmaster</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Maritime</a></li>
-            </ul>
-        </div>
-        <div class="h-3/4 w-[10%]">
-            <h5 class="text-[#f8f8f8] font-[poppins] pb-[8%]">CUSTOMER SERVICE</h5>
-            <ul>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Payment Options</a></li>                
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Track Order</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Encircle Program</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Find Titan World Stores</a></li>
-            </ul>
-        </div>
-        <div class="h-3/4 w-[10%]">
-            <h5 class="text-[#f8f8f8] font-[poppins] pb-[8%]">CONTACT US</h5>
-            <ul>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">1800-266-0123</a></li>                
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">customercare@titan.co.in</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Help & Contact</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">FAQs</a></li>
-            </ul>
-        </div>
-        <div class="h-3/4 w-[10%]">
-            <h5 class="text-[#f8f8f8] font-[poppins] pb-[8%]">ABOUT TITAN</h5>
-            <ul>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Brand Protection</a></li>                
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Corporate</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Careers</a></li>
-                <li class="pb-[2px]"><a href="" class="text-[#f8f8f8] font-[poppins] text-xs">Blog</a></li>
-            </ul>
-        </div>
-        <div class="h-4/5 w-1/4">
-            <p class="text-white font-[poppins] text-[16px]">Download Titan World App</p>
-            <div class="h-[40px] w-full mt-4 flex">
-                <img src="image/Group 15609.png" alt="">
-                <img src="image/Group 15610@2x.png" alt="" class="ms-3">
-            </div>
-           
-            <p class="text-white font-[poppins] text-[16px] w-full mt-4">Follow Us With</p>
-            <div class="h-[40px] w-full mt-2 flex">
-                <i class="fa-brands fa-facebook-f fa-xs bg-[rgb(59,59,59)] h-7 w-7 flex justify-center items-center rounded-full text-[#d8d8d8]"></i>
-                <i class="fa-brands fa-instagram fa-xs bg-[rgb(59,59,59)] h-7 w-7 flex justify-center items-center rounded-full text-[#d8d8d8] ms-3"></i>
-                <i class="fa-brands fa-x-twitter fa-xs bg-[rgb(59,59,59)] h-7 w-7 flex justify-center items-center rounded-full text-[#d8d8d8] ms-3"></i>
-                <i class="fa-brands fa-youtube fa-xs bg-[rgb(59,59,59)] h-7 w-7 flex justify-center items-center rounded-full text-[#d8d8d8] ms-3"></i>
-            </div>
-            
-        </div>
-    </footer> -->
+    <div class="h-[1400px] w-full bg-[#dda2430d] flex flex-wrap justify-evenly items-center"> 
+      <h1 class="text-center text-3xl pt-3 text-[#212121] font-[Poppins] w-full">SHOP BY BRANDS</h1>
+      <div class="h-[27%] w-[21%]"><img src="image/i33.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i34.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i35.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i36.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i37.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i38.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i39.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i40.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i41.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i42.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i43.jpg" alt="" class="h-full w-full"></div>
+      <div class="h-[27%] w-[21%]"><img src="image/i44.jpg" alt="" class="h-full w-full"></div>
+    </div>
+
+
+    <div class="h-[800px] w-full flex flex-wrap justify-evenly items-center p-10">
+      <h1 class="text-center text-3xl text-[#212121] font-[Poppins] w-full">MOVEMENT IN TIME</h1>
+      <div class="h-[90%] w-[45%]"><img src="image/i45.jpg" alt="" class="h-full w-full" ></div>
+      <div class="h-[92%] w-[50%] flex flex-wrap justify-evenly items-center">
+        <div class="h-[47%] w-[47%]"><img src="image/i46.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[47%]"><img src="image/i47.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[47%]"><img src="image/i48.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[47%]"><img src="image/i49.jpg" alt="" class="h-full w-full"></div>
+      </div>
+    </div>
 
 
 
+    <div class="h-[500px] w-full">
+      <h1 class="text-center text-3xl text-[#212121] font-[Poppins] w-full">DISCOVER YOUR STYLE</h1>
 
+       <!-- Swiper -->
+  <div class="swiper mySwiperC w-[80%] mt-4 h-[85%]">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw0b293ab5/images/homepage/All_Banners/Discover_Minimal_D.jpg" alt=""><button></button></div>
+      <div class="swiper-slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwbf49db4e/images/homepage/All_Banners/Discover_Bold_D.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwdae85b9d/images/homepage/All_Banners/Discover_Luxe_D.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw93f8affd/images/homepage/All_Banners/Discover_Couple_D.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw816cf69a/images/homepage/All_Banners/Discover_Sporty_D.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination "></div>
+  </div>
+    </div>
+
+
+
+    <div class="h-[900px] w-full">
+      <h1 class="text-center text-3xl pt-3 text-[#212121] font-[Poppins] w-full mb-2">COLLECTION</h1>
+      <div class="h-[90%] w-[90%] m-auto  flex flex-wrap justify-evenly items-center">
+        <div class="h-[47%] w-[24%]"><img src="image/i50.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[24%]"><img src="image/i51.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[24%]"><img src="image/i52.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[24%]"><img src="image/i53.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[24%]"><img src="image/i54.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[24%]"><img src="image/i55.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[24%]"><img src="image/i56.jpg" alt="" class="h-full w-full"></div>
+        <div class="h-[47%] w-[24%]"><img src="image/i57.jpg" alt="" class="h-full w-full"></div>
+      </div>
+    </div>
+
+   
+    <div class="h-[300px] w-full bg-[#dda2430d] text-center mb-5 pt-4">
+      <h1 class="text-center text-2xl text-[#212121] pt-5 pb-4">LOGIN FOR THE BEST EXPERIENCE</h1>
+      <button class="h-14 w-[8%] bg-[#dda243] p-1">LOGIN NOW</button><br><br>
+      <a href="" class="underline">Create An Account</a>
+    </div>
 
 
 
 
 
     <iframe src="footer.html" style="border:none; width: 100%; height: 420px;"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,7 +386,7 @@
     },
   });
 
-  var swiper = new Swiper(".mySwiper2", {
+  var swiper = new Swiper(".mySwiperA", {
       slidesPerView: 6,
       spaceBetween: 30,
       loop: true,
@@ -293,6 +400,42 @@
       },
     });
 
+
+    var swiper = new Swiper(".mySwiperB", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+      },
+    });
+
+
+
+
+    var swiper = new Swiper(".mySwiperC", {
+      slidesPerView: 3,
+      spaceBetween: 15,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
 
 </script>
  

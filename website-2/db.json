@@ -1,0 +1,259 @@
+{
+    "women": [
+        {
+            "id": "1",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw6c9df22a/images/Titan/Catalog/2656WM01_1.jpg?sw=360&sh=360",
+            "about": "Titan Women's Lagan Watch: Rose Gold Accents & Refined Elegance",
+            "type": "Women's Watch",
+            "price": "2,835",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "2",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwd7d3ddb2/images/Sonata/Catalog/SP80065WM01W_1.jpg?sw=360&sh=360",
+            "about": "Sonata Poze Quartz Analog Rose Gold Dial Mesh Strap Watch for Women",
+            "type": "Women's Watch",
+            "price": "1,395",
+            "rate": "1,648",
+            "dis": "30% Off"   
+        },
+        {
+            "id": "3",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw77995370/images/Titan/Catalog/2608QM02_1.jpg?sw=360&sh=360",
+            "about": "Raga Women's Allure: Brown Dial with designer Metal Strap Watch",
+            "type": "Women's Watch",
+            "price": "5,995",
+            "rate": "1,648",
+            "dis": "0% Off"   
+        },
+        {
+            "id": "4",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw1e380d61/images/Titan/Catalog/2725WM01_1.jpg?sw=360&sh=360",
+            "about": "Titan Raga Rose Gold Dial Watch for Women",
+            "type": "Women's Watch",
+            "price": "3,995",
+            "rate": "1,648",
+            "dis": "0% Off"   
+        },
+        {
+            "id": "5",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwc3ae5e3d/images/Fastrack/Catalog/FV60052WM02W_1.jpg?sw=360&sh=360",
+            "about": "Fastrack Vyb Aurora Quartz Analog Rose Gold Dial Gold Color Metal Strap..",
+            "type": "Girls Watch",
+            "price": "1,795",
+            "rate": "1,648",
+            "dis": "30% Off"   
+        },
+        {
+            "id": "6",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwf87788bb/images/Titan/Catalog/2656WL01_1.jpg?sw=360&sh=360",
+            "about": "Titan Women's Lagan Chic: Studded Brown Dial watch with & Elegant Hands",
+            "type": "Women's Watch",
+            "price": "1,995",
+            "rate": "1,648",
+            "dis": "0% Off"   
+        },
+        {
+            "id": "7",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw3b0e804a/images/Sonata/Catalog/SP80065SM01W_1.jpg?sw=360&sh=360",
+            "about": "Sonata Poze Quartz Analog Silver Dial Mesh Strap Watch for Women",
+            "type": "Women's Watch",
+            "price": "820",
+            "rate": "1,648",
+            "dis": "50% Off"   
+        },
+        {
+            "id": "8",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5487e70b/images/Titan/Catalog/2606WM08_1.jpg?sw=360&sh=360",
+            "about": "Raga Women's Charm: Elegant Mother of Pearl Dial with Ornate Strap Watch",
+            "type": "Women's Watch",
+            "price": "7,765",
+            "rate": "1,648",
+            "dis": "0% Off"   
+        },
+        {
+            "id": "9",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw9e171202/images/Sonata/Catalog/SP80075KM04W_1.jpg?sw=360&sh=360",
+            "about": "Sonata Poze Quartz Analog Beige Dial Mesh Strap Watch for Women",
+            "type": "Women's Watch",
+            "price": "795",
+            "rate": "1,648",
+            "dis": "43% Off"   
+        },
+        {
+            "id": "10",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwc56661e4/images/Fastrack/Catalog/FV60052WM01W_1.jpg?sw=360&sh=360",
+            "about": "Fastrack Vyb Aurora Quartz Analog Purple Dial Rose Gold Color Metal Strap",
+            "type": "Girls Watch",
+            "price": " 1,795",
+            "rate": "1,648",
+            "dis": "30% Off"   
+        },
+        {
+            "id": "11",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw2f56c1b1/images/Sonata/Catalog/SP80055WM01W_1.jpg?sw=360&sh=360",
+            "about": "Sonata Poze Quartz Analog White Dial Metal Strap Watch for Women",
+            "type": "Women's Watch",
+            "price": "1,425",
+            "rate": "1,648",
+            "dis": "30% Off"   
+        },
+        {
+            "id": "12",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw2278f21c/images/Fastrack/Catalog/FV60048WM01W_1.jpg?sw=360&sh=360",
+            "about": "Fastrack Vyb Prodigy Quartz Analog White Dial Rose Gold Color Metal Strap",
+            "type": "Girls Watch",
+            "price": "1,995",
+            "rate": "1,648",
+            "dis": "30% Off"   
+        }
+    ],
+    "men":[
+        {
+            "id": "13",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw3e10e985/images/Titan/Catalog/1713BM02_1.jpg?sw=360&sh=360",
+            "about": "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+            "type": "Men's Watch",
+            "price": "3,585",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "14",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5dea78ac/images/Titan/Catalog/1639SM02_1.jpg?sw=360&sh=360",
+            "about": "Titan Men's Elegance Watch: Black Dial with Sleek Link Strap",
+            "type": "Men's Watch",
+            "price": "1,995",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "15",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwf389c7ea/images/Titan/Catalog/1825SM11_1.jpg?sw=360&sh=360",
+            "about": "Titan Karishma Quartz Analog Green Dial Stainless Steel Strap Watch for Men",
+            "type": "Men's Watch",
+            "price": "3,095",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "16",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwb5faa7ee/images/Sonata/Catalog/SP70034SM01W_1.jpg?sw=360&sh=360",
+            "about": "Sonata Poze Quartz Analog Black Dial Mesh Strap Watch for Men",
+            "type": "Men's Watch",
+            "price": "975",
+            "rate": "1,648",
+            "dis": "40% Off" 
+        },
+        {
+            "id": "17",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwcfb00132/images/Titan/Catalog/1806NM01_1.jpg?sw=360&sh=360",
+            "about": "Titan Men's Timeless Style Watch: Refined Black Dial and Metal Strap",
+            "type": "Men's Watch",
+            "price": "3,995",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "18",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw0814ec34/images/Titan/Catalog/1805QM04_1.jpg?sw=360&sh=360",
+            "about": "Titan Neo Splash Quartz Multifunction Black Dial Stainless Steel Strap Watch",
+            "type": "Men's Watch",
+            "price": "7,345",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "19",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw9c842df9/images/Titan/Catalog/1824BM03_1.jpg?sw=360&sh=360",
+            "about": "Titan Men's Trendsetter Watch: Chic Blue Dial & Two-Tone Strap",
+            "type": "Men's Watch",
+            "price": "3,995",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "20",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwcde5700f/images/Titan/Catalog/1648SM01_1.jpg?sw=360&sh=360",
+            "about": "Titan Karishma Zing Quartz Analog Green Dial Stainless Steel Strap Watch",
+            "type": "Men's Watch",
+            "price": "1,795",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "21",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw6cb9aefc/images/Sonata/Catalog/SP70027WL01W_1.jpg?sw=360&sh=360",
+            "about": "Sonata Poze Quartz Analog Blue Dial Leather Strap Watch for Men",
+            "type": "Men's Watch",
+            "price": "945",
+            "rate": "1,648",
+            "dis": "40% Off" 
+        },
+        {
+            "id": "22",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw1888ad40/images/Titan/Catalog/1805QM01_1.jpg?sw=360&sh=360",
+            "about": "Titan Neo Splash Blue Dial Quartz Multifunction Stainless Steel Strap ",
+            "type": "Men's Watch",
+            "price": "7,995",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "23",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw30c7fc65/images/Sonata/Catalog/SP70032NM01W_1.jpg?sw=360&sh=360",
+            "about": "Sonata Poze Quartz Analog Black Dial Metal Strap Watch for Men",
+            "type": "Men's Watch",
+            "price": "1,075",
+            "rate": "1,648",
+            "dis": "40% Off" 
+        },
+        {
+            "id": "24",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw5460fdbb/images/Titan/Catalog/1733KL03_1.jpg?sw=360&sh=360",
+            "about": "Titan Quartz Multifunction Blue Dial Leather Strap Watch for Men",
+            "type": "Men's Watch",
+            "price": "5,995",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "25",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw7883ae79/images/Titan/Catalog/90204AP03_1.jpg?sw=360&sh=360",
+            "about": "Titan Evolution 4.6 cm Curved AMOLED Display, 390x450 Resolution",
+            "type": "Unisex Watch",
+            "price": "6,999",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "26",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw486cfd62/images/Titan/Catalog/1825SL15_1.jpg?sw=360&sh=360",
+            "about": "Titan Karishma Quartz Analog Silver Dial Leather Strap Watch for Men",
+            "type": "Men's Watch",
+            "price": "3,045",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "27",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw96ca1aad/images/Titan/Catalog/1803NM01_1.jpg?sw=360&sh=360",
+            "about": "Titan Neo Black Dial Quartz Multifunction Stainless Steel Strap watch for Men",
+            "type": "Men's Watch",
+            "price": "5,995",
+            "rate": "1,648",
+            "dis": "0% Off" 
+        },
+        {
+            "id": "28",
+            "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwcb7ae7c4/images/Fastrack/Catalog/FV30004KM01W_1.jpg?sw=360&sh=360",
+            "about": "Fastrack Vyb Aviator Quartz Analog Black Dial Two Toned Metal Strap ",
+            "type": "Guys Watch",
+            "price": "1,650",
+            "rate": "1,648",
+            "dis": "30% Off" 
+        }
+    ],
+    "cart": []
+}
