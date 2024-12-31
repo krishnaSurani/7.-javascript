@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
 
         <style>
             li::marker{
@@ -38,18 +40,22 @@
         <div class="w-[20%] h-[60%] flex items-center text-xs font-[Poppins]"><img src="image/check.svg" alt=""> <p class="ps-4">100 % SECURE</p></div>
     </header>
 
-    <div class="h-[700px] w-[80%] border m-auto flex justify-between">
-        <div class="h-full w-[67%] border mt-4">
+    <div class="h-[700px] w-[80%] m-auto flex justify-between">
+        <div class="h-[600px] w-[67%]  mt-4">
             <div class="h-[110px] w-full border p-4">
                 <p class="flex"><img src="image/Offer-Icon-24x24.svg"alt=""><span class="text-sm font-[Poppins] ps-2">Available Offers</span></p>
                <li class="text-xs ps-5 pb-3 text-[#6c6c6c] pt-2">Get 10% Cashback* on your payment purchase with <b class="text-black">Snapmint.T&C</b></li>
                <span class="text-[#1d1d1d] text-sm underline underline-offset-1 ps-[30px] font-medium">See More <i class="fa-solid fa-chevron-down fa-xs"></i></span>
             </div>
+
+            <div id="cartbox">
+                <!-- <div id="price"></div> -->
+            </div>
         </div>
 
 
-        <div class="h-full w-[31%] border ">
-            <div class="h-[55px] w-full border mt-4 bg-gradient-to-r from-[#FCF8F5] to-[#ECDACA] flex justify-between items-center">
+        <div class="h-full w-[31%] ">
+            <div class="h-[55px] w-full  mt-4 bg-gradient-to-r from-[#FCF8F5] to-[#ECDACA] flex justify-between items-center">
                 <img src="image/i59.jpg" alt="" class="h-full w-[90px]">
                 
                 <div class="w-[68%] h-full">
@@ -58,17 +64,18 @@
                 </div>    
             </div>
 
-            <div class="h-[100px] w-full border mt-4" style="background-image: url(image/i60.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+            <div class="h-[100px] w-full mt-4" style="background-image: url(image/i60.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
                 <span class="text-xs p-4">Check Delivery Availability</span>
             </div>
+
+            <div id="price"></div>
         </div>
     </div>
     
-
     
     
     
     
-    <script src="cart.html"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>

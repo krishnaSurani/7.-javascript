@@ -14,10 +14,6 @@ function singlrPage() {
             document.getElementById("cart").addEventListener("click", () => {
                 AddCart(res)
             })
-            document.getElementById("like").addEventListener("click", () => {
-                document.getElementById("like").style.color = "red"
-                AddLike(res)
-            })
         })
 }
 
@@ -35,10 +31,7 @@ function singlrPage2() {
             document.getElementById("cart").addEventListener("click", () => {
                 AddCart(res)
             })
-            document.getElementById("like").addEventListener("click", () => {
-                document.getElementById("like").style.color = "red"
-                AddLike(res)
-            })
+           
         })
 }
 
@@ -60,15 +53,15 @@ function singlePageView(ele) {
                             <p class="text-xs font-medium font-[poppins] ps-2"><span>4.3</span><span class="ps-3 pe-3">|</span> <span>449 Reviews</span></p>
                     </div>
                     <div class="h-[100px] w-full">
-                        <h1 class="text-base text-[#1d1d1d] font-[poppins]">Titan Women's Lagan Watch: Rose Gold Accents & Refined Elegance</h1>
-                        <p class="text-xs text-[#999]">NS2656WM01 <span class="ps-2 pe-2 text-black">|</span>Women's Watch</p>
-                        <h2 class="font-[poppins] pt-3"><span class="font-medium ">₹ 2,550.00</span> <span class="text-[#999] ps-2">MRP </span><span class="line-through text-[#999]">₹ 2,835.00</span> <span class="text-[#45a03f] text-sm ps-2">10% off</span></h2>
+                        <h1 class="text-base text-[#1d1d1d] font-[poppins]">${ele.about}</h1>
+                        <p class="text-xs text-[#999]">NS2656WM01 <span class="ps-2 pe-2 text-black">|</span>${ele.type}</p>
+                        <h2 class="font-[poppins] pt-3"><span class="font-medium ">₹ ${ele.price}</span> <span class="text-[#999] ps-2">MRP </span><span class="line-through text-[#999]">₹ ${ele.price}</span> <span class="text-[#45a03f] text-sm ps-2">10% off</span></h2>
                         <span class="text-xs text-[#999] font-[poppins] font-normal">Inclusive of all taxes*</span>
                     </div>
                 </div>
 
                 <div class="h-14 w-full flex justify-between items-center">
-                <a href="cart.html" class="h-full w-[48%] bg-[#FCF9F5] border border-[#E0C294] text-center flex justify-evenly items-center"><button >ADD TO CART</button></a>
+                <button class="h-full w-[48%] bg-[#FEFAF5]"  style="border: 1px solid #C48D35;" id="cart">ADD TO CART</button>
                     
                     <button class="h-full w-[48%] bg-[#C48D35] ">BUY NOW</button>
                 </div>
@@ -114,7 +107,7 @@ function singlePageView(ele) {
 
 function AddCart(res) {
 
-    fetch(`https://render-js02.onrender.com/cart?id=${res.id}`)
+    fetch(`http://localhost:3000/cart?id=${res.id}`)
         .then((r) => { return r.json() })
         .then((Res) => {
             if (Res.length > 0) {
@@ -127,7 +120,7 @@ function AddCart(res) {
                 })
             }
             else {
-                fetch(`https://render-js02.onrender.com/cart`,
+                fetch(`http://localhost:3000/cart`,
                     {
                         method: "POST",
                         headers: {
@@ -155,34 +148,7 @@ function AddCart(res) {
 
 }
 
-function AddLike(res) {
 
-    fetch(`http://localhost:3000/like?id=${res.id}`)
-        .then((r) => { return r.json() })
-        .then((Res) => {
-            if (Res.length > 0) {
-            }
-            else {
-                fetch(`http://localhost:3000/like`,
-                    {
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json"
-                        },
-                        body: JSON.stringify({ ...res, queinty: 1 })
-                    })
-                    .then((r) => r.json())
-                    .then((res) => console.log(res),
-                    )
-                    .catch((err) =>
-                        console.log(err),
-
-                    )
-            }
-        })
-
-
-}
 
 
 singlrPage()

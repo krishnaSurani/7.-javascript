@@ -20,6 +20,7 @@ function data() {
                                     <h5 class="text-base font-medium cursor-pointer hover:underline ">${el.about}</h5>
                                     <p class="text-[#999] text-sm pt-1 ">${el.type}</p>
                                     <span class="pt-1 text-lg font-medium">₹${el.price}</span>
+                                    <span class="pt-1 text-sm font-medium line-through ps-2 text-[#999] ">₹${el.disprice}</span>
                                     <snap class="ps-3 text-sm text-[#bf4815] font-medium">${el.dis}</span>
                                 </div>
                            </div>
