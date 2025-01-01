@@ -79,9 +79,9 @@
                         <span class="text-xs pt-1 font-[poppins] cursor-pointer">Wishlist</span>
                       </div>
                     </a>
-                    
                     <a href="cart.html"  class="w-[17%] ms-3 ps-[30px]">
-                      <div class="h-full w-1/4 flex items-center justify-between flex-col">
+                      <div class="h-full w-1/4 flex items-center justify-between flex-col relative">
+                        <p id="total" class="border rounded-full h-[15px] w-[15px] flex justify-center items-center absolute ms-4 bg-[red] text-[white] text-[10px]"></p>
                         <i class="ri-shopping-bag-line h-2/3" style="color: #818080;"></i>
                         <span class="text-xs pt-1 font-[poppins] cursor-pointer h-7">Cart</span>
                       </div>
@@ -362,7 +362,9 @@
 
 
 <script src="js/script.js"></script>
+<script src="js/totalitem.js"></script>
 </body>
+
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

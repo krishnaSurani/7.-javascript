@@ -54,7 +54,7 @@
       "brand": "Raga",
       "SM": "Metal",
       "SC": "Rose Gold",
-      "DC":"ROSE GOLD"
+      "DC": "ROSE GOLD"
     },
     {
       "id": "5",
@@ -68,7 +68,7 @@
       "brand": "Fastrack",
       "SM": "Metal",
       "SC": "Rose Gold",
-      "DC":"ROSE GOLD"
+      "DC": "ROSE GOLD"
     },
     {
       "id": "6",
@@ -82,7 +82,7 @@
       "brand": "Titan",
       "SM": "Leather",
       "SC": "White",
-      "DC":"BROWN"
+      "DC": "BROWN"
     },
     {
       "id": "7",
@@ -96,7 +96,7 @@
       "brand": "Sonata",
       "SM": "Mesh",
       "SC": "Silver",
-      "DC":"SILVER"
+      "DC": "SILVER"
     },
     {
       "id": "8",
@@ -110,7 +110,7 @@
       "brand": "Raga",
       "SM": "Metal",
       "SC": "Rose Gold",
-      "DC":"GOLD"
+      "DC": "GOLD"
     },
     {
       "id": "9",
@@ -124,7 +124,7 @@
       "brand": "Sonata",
       "SM": "Mesh",
       "SC": "Peach",
-      "DC":"GOLD"
+      "DC": "GOLD"
     },
     {
       "id": "10",
@@ -138,7 +138,7 @@
       "brand": "Fastrack",
       "SM": "Metal",
       "SC": "Rose Gold",
-      "DC":"PURPLE"
+      "DC": "PURPLE"
     },
     {
       "id": "11",
@@ -152,7 +152,7 @@
       "brand": "Sonata",
       "SM": "Metal",
       "SC": "Rose Gold",
-      "DC":"WHITE"
+      "DC": "WHITE"
     },
     {
       "id": "12",
@@ -166,7 +166,7 @@
       "brand": "Fastrack",
       "SM": "Metal",
       "SC": "Rose Gold",
-      "DC":"WHITE"
+      "DC": "WHITE"
     },
     {
       "id": "13",
@@ -180,7 +180,7 @@
       "brand": "Titan",
       "SM": "Leather",
       "SC": "Black",
-      "DC":"BLACK"
+      "DC": "BLACK"
     },
     {
       "id": "14",
@@ -194,7 +194,7 @@
       "brand": "Tommy Hilfiger",
       "SM": "Silicone",
       "SC": "Pink",
-      "DC":"WHITE"
+      "DC": "WHITE"
     },
     {
       "id": "15",
@@ -208,7 +208,7 @@
       "brand": "Tommy Hilfiger",
       "SM": "Stainless Steel",
       "SC": "Blue",
-      "DC":"BLUE"
+      "DC": "BLUE"
     },
     {
       "id": "16",
@@ -222,7 +222,7 @@
       "brand": "Kenneth Cole",
       "SM": "Stainless Steel",
       "SC": "Golden",
-      "DC":"ROSE GOLD"
+      "DC": "ROSE GOLD"
     },
     {
       "id": "17",
@@ -236,7 +236,7 @@
       "brand": "Anne Klein",
       "SM": "Metal",
       "SC": "Blue",
-      "DC":"BLUE"
+      "DC": "BLUE"
     },
     {
       "id": "18",
@@ -250,7 +250,7 @@
       "brand": "Fastrack",
       "SM": "Metal",
       "SC": "Black",
-      "DC":"BLACK"
+      "DC": "BLACK"
     },
     {
       "id": "19",
@@ -264,7 +264,7 @@
       "brand": "Fastrack",
       "SM": "Silicone",
       "SC": "Pink",
-      "DC":"BLACK"
+      "DC": "BLACK"
     },
     {
       "id": "20",
@@ -278,7 +278,7 @@
       "brand": "Fastrack",
       "SM": "Stainless Steel",
       "SC": "Silver",
-      "DC":"BLACK"
+      "DC": "BLACK"
     }
   ],
   "men": [
@@ -461,31 +461,18 @@
   ],
   "cart": [
     {
-      "id": "13",
-      "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwf36cbbb6/images/Titan/Catalog/2648NL01_1.jpg?sw=360&sh=360",
-      "about": "Titan Women's Precision Simplicity Watch: Black Gradient Dial with Leather",
+      "id": "7",
+      "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw3b0e804a/images/Sonata/Catalog/SP80065SM01W_1.jpg?sw=360&sh=360",
+      "about": "Sonata Poze Quartz Analog Silver Dial Mesh Strap Watch for Women",
       "type": "Women's Watch",
-      "price": 2180,
+      "price": 995,
       "rate": "1,648",
-      "dis": 30,
-      "disprice": 3115,
-      "brand": "Titan",
-      "SM": "Leather",
-      "queinty": 1
-    },
-    {
-      "id": "1",
-      "image": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw6c9df22a/images/Titan/Catalog/2656WM01_1.jpg?sw=360&sh=360",
-      "about": "Titan Women's Lagan Watch: Rose Gold Accents & Refined Elegance",
-      "type": "Women's Watch",
-      "price": 2550,
-      "rate": 1648,
-      "dis": 10,
-      "disprice": 2835,
-      "brand": "Titan",
-      "SM": "Metal",
-      "SC": "Rose Gold",
-      "DC": "Silver",
+      "dis": 40,
+      "disprice": 1645,
+      "brand": "Sonata",
+      "SM": "Mesh",
+      "SC": "Silver",
+      "DC": "SILVER",
       "queinty": 1
     }
   ]
