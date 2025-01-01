@@ -66,7 +66,7 @@
                     <i class="ri-mic-line absolute top-[20%] right-[20px]" style="color: #737373;"></i>
                 </div>
                 <div class="icon w-[30%] h-full flex">
-                  <a href="" class="w-[17%] ms-5 ps-[30px]">
+                  <a href="loging.html" class="w-[17%] ms-5 ps-[30px]">
                     <div class="h-full w-1/4 flex items-center justify-evenly flex-col">
                       <i class="fa-regular fa-user" style="color: #818080;"></i>
                       <span class="text-xs pt-1 font-[poppins] cursor-pointer">Account</span>
@@ -115,6 +115,7 @@
             </div>
         </div>
     </header>
+
     <div class="h-[40px] w-full ps-5">
         <p class="ps-[7%] pt-2"><span class="opacity-30">Home</span> > Women</p>
     </div>
@@ -138,14 +139,14 @@
             <button
                 class="h-[40px] w-[15.5625rem] bg-white border border-#0000001a font-medium text-xs text-[#212529]">SORT
                 BY:
-                <select name="" id="" class="opacity-60 text-sm">
+                <select name="" id="opt" class="opacity-60 text-sm">
                     <option value="">Featured</option>
                     <option value="">Best Sellers</option>
                     <option value="">Popularity</option>
                     <option value="">New Arrivals</option>
-                    <option value="">Discount</option>
-                    <option value="">Price: High To Low</option>
-                    <option value="">Price: Low To High</option>
+                    <option value="dis">Discount</option>
+                    <option value="hl">Price: High To Low</option>
+                    <option value="lh">Price: Low To High</option>
                     <option value="">Titan Recommends </option>
                 </select>
             </button>
@@ -154,7 +155,7 @@
     </div>
     <div class="main flex">
 
-        <aside class="h-[1000px] w-[40%]">
+        <aside class="h-[1000px] w-[30%]">
             <!-- Accordion Item 2 -->
             <div class="border-b p-2 py-4 overflow-hidden relative ">
                 <h4 class="font-bold">Strap Material</h4>
@@ -211,56 +212,62 @@
                 <i class="fa-solid fa-angle-down absolute right-2 top-5 text-[#BCBCBC]" id="toggle"></i>
                 <div class="hidden p-2 bg-white font-[poppins]" id="slidtoggle">
                     <div class="a h-[40px] flex mt-2">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Black
+                        <input type="checkbox" id="sc1" class="h-[20px] w-[20px] rounded mr-3">Black
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">White
+                        <input type="checkbox" id="sc2" class="h-[20px] w-[20px] rounded mr-3">White
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Blue
+                        <input type="checkbox" id="sc3" class="h-[20px] w-[20px] rounded mr-3">Blue
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Green
+                        <input type="checkbox" id="sc4" class="h-[20px] w-[20px] rounded mr-3">Peach
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Grey
+                        <input type="checkbox" id="sc5" class="h-[20px] w-[20px] rounded mr-3">Pink
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Golden
+                        <input type="checkbox" id="sc6" class="h-[20px] w-[20px] rounded mr-3">Golden
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Silver
+                        <input type="checkbox" id="sc7" class="h-[20px] w-[20px] rounded mr-3">Silver
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Brown
+                        <input type="checkbox" id="sc8" class="h-[20px] w-[20px] rounded mr-3">Brown
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Rose Gold
+                        <input type="checkbox" id="sc9" class="h-[20px] w-[20px] rounded mr-3">Rose Gold
                     </div>
                 </div>
             </div>
             <!-- Accordion Item 5 -->
             <div class="border-b p-2 py-4 overflow-hidden relative ">
-                <h4 class="font-bold">Dial Shape</h4>
+                <h4 class="font-bold">Dial Color</h4>
                 <i class="fa-solid fa-angle-down absolute right-2 top-5 text-[#BCBCBC]" id="toggle"></i>
                 <div class="hidden p-2 bg-white font-[poppins]" id="slidtoggle">
                     <div class="a h-[40px] flex mt-2">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Special (186)
+                        <input type="checkbox" id="dc1" class="h-[20px] w-[20px] rounded mr-3">BLACK
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Cushion (3)
+                        <input type="checkbox" id="dc2" class="h-[20px] w-[20px] rounded mr-3">ROSE GOLD
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Elongated Oval (4)
+                        <input type="checkbox" id="dc3" class="h-[20px] w-[20px] rounded mr-3">WHITE
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Round (1,849)
+                        <input type="checkbox" id="dc4" class="h-[20px] w-[20px] rounded mr-3">BLUE
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Rectangular (159)
+                        <input type="checkbox" id="dc5" class="h-[20px] w-[20px] rounded mr-3">GOLDEN
                     </div>
                     <div class="a h-[40px] flex">
-                        <input type="checkbox" id="fil1" class="h-[20px] w-[20px] rounded mr-3">Shaped (36)
+                        <input type="checkbox" id="dc6" class="h-[20px] w-[20px] rounded mr-3">PURPLE
+                    </div>
+                    <div class="a h-[40px] flex">
+                        <input type="checkbox" id="dc7" class="h-[20px] w-[20px] rounded mr-3">SILVER
+                    </div>
+                    <div class="a h-[40px] flex">
+                        <input type="checkbox" id="dc8" class="h-[20px] w-[20px] rounded mr-3">BROWN
                     </div>
                 </div>
             </div>

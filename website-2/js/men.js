@@ -13,7 +13,7 @@ function data() {
  function add(data) {
     return data.map((el, i) => {
             return `
-                           <div class="h-[500px] pt-2 font-[poppins]">
+                          <a href="singalpage.html?id=${el.id}"> <div class="h-[500px] pt-2 font-[poppins]">
                                 <div id="img" class="h-[70%] w-full"><img src="${el.image}" alt="" class="h-full w-full"></div>
                                 <div id="text" class="p-2">
                                     <p class="text-[#bf4815] text-xs font-medium pb-2">BEST SELLER</p>
@@ -21,9 +21,10 @@ function data() {
                                     <p class="text-[#999] text-sm pt-1 ">${el.type}</p>
                                     <span class="pt-1 text-lg font-medium">₹${el.price}</span>
                                     <span class="pt-1 text-sm font-medium line-through ps-2 text-[#999] ">₹${el.disprice}</span>
-                                    <snap class="ps-3 text-sm text-[#bf4815] font-medium">${el.dis}</span>
+                                    <snap class="ps-3 text-sm text-[#bf4815] font-medium">${el.dis}% off</span>
                                 </div>
                            </div>
+                           </a> 
             `
     }).join("")
  }

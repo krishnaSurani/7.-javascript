@@ -39,7 +39,7 @@ function singlePageView(ele) {
     return `
             <div id="main" class="w-[90%] m-auto flex justify-evenly items-center">
             <div id="img">
-                <img src="${ele.image}">
+                <img src="${ele.image}" class="h-[400px]">
             </div>
             <div id="text" class=" h-[450px] w-[45%]">
                 <div class=" h-[150px] flex flex-wrap justify-between items-center">
@@ -55,7 +55,7 @@ function singlePageView(ele) {
                     <div class="h-[100px] w-full">
                         <h1 class="text-base text-[#1d1d1d] font-[poppins]">${ele.about}</h1>
                         <p class="text-xs text-[#999]">NS2656WM01 <span class="ps-2 pe-2 text-black">|</span>${ele.type}</p>
-                        <h2 class="font-[poppins] pt-3"><span class="font-medium ">₹ ${ele.price}</span> <span class="text-[#999] ps-2">MRP </span><span class="line-through text-[#999]">₹ ${ele.price}</span> <span class="text-[#45a03f] text-sm ps-2">10% off</span></h2>
+                        <h2 class="font-[poppins] pt-3"><span class="font-medium ">₹ ${ele.price}</span> <span class="text-[#999] ps-2">MRP </span><span class="line-through text-[#999]">₹ ${ele.disprice}</span> <span class="text-[#45a03f] text-sm ps-2">${ele.dis}% off</span></h2>
                         <span class="text-xs text-[#999] font-[poppins] font-normal">Inclusive of all taxes*</span>
                     </div>
                 </div>
